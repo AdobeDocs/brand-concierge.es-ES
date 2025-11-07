@@ -32,4 +32,4 @@ Aprenda a configurar su primer Brand Concierge de Adobe para ayudar a los client
 * Conexión de fuentes de contenido para obtener respuestas precisas
 * Cómo personalizar la voz de la marca y probar la experiencia
 
->[!VIDEO](https://video.tv.adobe.com/v/3476521/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476524/?captions=spa&learn=on&enablevpops)
