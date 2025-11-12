@@ -8,17 +8,17 @@ doc-type: Tutorial
 duration: 181
 last-substantial-update: 2025-10-31T00:00:00Z
 jira: KT-19504
-source-git-commit: e7d50385a97fb10098bddf4222565348918d687f
+source-git-commit: 9ae37f8f5b85e21930ccc0644520f31d65a81829
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '127'
 ht-degree: 0%
 
 ---
 
 
-# Crear primer conserje
+# Cree su primer conserje
 
-Aprenda a configurar su primer Brand Concierge de Adobe para ayudar a los clientes a encontrar los productos, servicios o experiencias de Adobe adecuados. Aprenderá a nombrar a su conserje, agregar contenido útil, elegir cómo responde y hacer coincidir su voz con su marca. Una vez que esté listo, puede probarlo y ver cómo funciona en equipos de escritorio y dispositivos móviles.
+Aprenda a configurar su primer Brand Concierge de Adobe para ayudar a los clientes a encontrar los productos, servicios o experiencias de Adobe adecuados. Aprenderá a nombrar a su conserje, agregar contenido útil, elegir cómo responde y hacer coincidir su voz con su marca. Una vez que esté listo, puede probarlo y ver cómo funciona en equipos de escritorio y móviles.
 
 ## ¿Para quién es este vídeo?
 
@@ -32,4 +32,4 @@ Aprenda a configurar su primer Brand Concierge de Adobe para ayudar a los client
 * Conexión de fuentes de contenido para obtener respuestas precisas
 * Cómo personalizar la voz de la marca y probar la experiencia
 
->[!VIDEO](https://video.tv.adobe.com/v/3476524/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476521/?learn=on&enablevpops)
