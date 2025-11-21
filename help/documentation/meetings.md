@@ -1,9 +1,7 @@
 ---
 title: Reuniones en Adobe Brand Concierge
 description: Obtenga información sobre cómo configurar reuniones en Adobe Brand Concierge.
-hide: true
-hidefromtoc: true
-source-git-commit: 08e05eb4f50a7b4451e6e2f0ce3399c82a4beaa0
+source-git-commit: 3994c9557bfed43aef9584324fe6be0f70b974dc
 workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 1%
