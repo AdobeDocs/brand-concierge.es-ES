@@ -1,5 +1,5 @@
 ---
-title: Reservar una reunión
+title: Reservar una reunión - Vídeo
 description: Aprenda a reservar una reunión. Ver la experiencia como cliente, configurar representantes para que utilicen su calendario y ver informes
 topic: Artificial Intelligence,Personalization
 role: Admin, User
@@ -8,9 +8,9 @@ doc-type: Tutorial
 duration: 226
 last-substantial-update: 2026-01-06T00:00:00Z
 jira: KT-19622
-source-git-commit: 8afc5a9ad7978fa5a83e98443d6bf129896eb909
+source-git-commit: 1527a37e7ddadcc89e43bdcc0396ee175e3fbdc7
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,6 @@ Obtenga información acerca de la posibilidad de reservar una reunión que se en
 * Ver lo rápido y fácil que sucede una transferencia a un agente activo
 * Descubra cómo se administran y configuran estas herramientas
 
->[!VIDEO](https://video.tv.adobe.com/v/3478537?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478534?learn=on&enablevpops)
 
 Para obtener más documentación, consulte [Reuniones](../documentation/meetings.md).
