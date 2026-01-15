@@ -1,5 +1,5 @@
 ---
-title: Introducción a Brand Concierge
+title: Crear un vídeo de Concierge
 description: Aprenda a configurar un Brand Concierge de Adobe para ofrecer experiencias de cliente personalizadas y conversacionales con la voz de su marca.
 topic: Personalization,Integrations
 role: User
@@ -8,9 +8,9 @@ doc-type: Tutorial
 duration: 181
 last-substantial-update: 2025-10-31T00:00:00Z
 jira: KT-19504
-source-git-commit: 9ae37f8f5b85e21930ccc0644520f31d65a81829
+source-git-commit: f2006c69fec365551f791a6c94bca6f1c2c6cdc4
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -32,4 +32,6 @@ Aprenda a configurar su primer Brand Concierge de Adobe para ayudar a los client
 * Conexión de fuentes de contenido para obtener respuestas precisas
 * Cómo personalizar la voz de la marca y probar la experiencia
 
->[!VIDEO](https://video.tv.adobe.com/v/3476524/?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3476521/?learn=on&enablevpops)
+
+Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).

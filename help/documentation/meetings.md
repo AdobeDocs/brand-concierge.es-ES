@@ -1,10 +1,12 @@
 ---
-title: Reuniones en Adobe Brand Concierge
+title: Configurar y organizar reuniones
 description: Obtenga información sobre cómo configurar reuniones en Adobe Brand Concierge.
-source-git-commit: 3994c9557bfed43aef9584324fe6be0f70b974dc
+level: Beginner
+role: User,Admin
+source-git-commit: 8afc5a9ad7978fa5a83e98443d6bf129896eb909
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 1%
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -24,31 +26,41 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
    ![Página principal de Adobe Experience Platform](assets/meetings-connect-1.png){width="800" zoomable="yes"}
 
-1. En _Configuración_, haga clic en **[!UICONTROL Configuración de representante]**. En la pestaña _[!UICONTROL Configuración del calendario]_, elija el calendario que desee. En este ejemplo, estamos seleccionando **[!UICONTROL Outlook]**.
+1. En _Configuración_, haga clic en **[!UICONTROL Configuración de representante]**.
 
    ![Página de configuración del calendario](assets/meetings-connect-2.png)
+
+   En la pestaña _[!UICONTROL Configuración del calendario]_, elija el calendario que desee. En este ejemplo, está seleccionando **[!UICONTROL Outlook]**.
 
 1. Elija una cuenta que ya haya iniciado sesión o agregue una nueva.
 
    ![Microsoft elige un modal de cuenta](assets/meetings-connect-3.png)
 
-1. Cuando finalice la conexión, configure el contenido de correo electrónico deseado que se envía al destinatario cuando reserva una reunión con usted. También puede incluir un vínculo a una reunión de Microsoft Teams (opcional). Haga clic en **[!UICONTROL Guardar]** cuando haya terminado.
+1. Una vez finalizada la conexión, especifique el contenido de correo electrónico que desee.
+
+   Este es el contenido que se envía al destinatario cuando reserva una reunión con usted. También puede incluir un vínculo a una reunión de Microsoft Teams (opcional).
 
    ![Detalles del correo electrónico de confirmación de reunión](assets/meetings-connect-4.png)
 
+1. Haga clic en **[!UICONTROL Guardar]**.
+
 ### Establecer disponibilidad del calendario {#availability}
 
-1. Seleccione la ficha **[!UICONTROL Disponibilidad del calendario]**.
+1. Haga clic en la ficha **[!UICONTROL Disponibilidad del calendario]**.
 
    ![Página de disponibilidad de calendario en blanco](assets/meetings-availability-1.png)
 
-1. Elija la configuración que desee. En este ejemplo, elegimos _[!UICONTROL Duración de la reunión]_ de 30 minutos con un _[!UICONTROL Tiempo de búfer]_ de 15 minutos y un _[!UICONTROL Aviso mínimo]_ de 2 horas. Nuestra disponibilidad se establece de lunes a viernes, de 8 a.m. a 5 p.m. PST, con una pausa de una hora al mediodía. Haga clic en **[!UICONTROL Guardar]** cuando haya terminado.
+1. Elija la configuración que desee.
 
->[!NOTE]
->
->Para agregar más opciones de tiempo, simplemente haga clic en el icono del signo más (![icono del signo más](assets/icon-plus-sign.png)).
+   En este ejemplo, elige **[!UICONTROL Duración de la reunión]** de 30 minutos con un **[!UICONTROL Tiempo de búfer]** de 15 minutos y un **[!UICONTROL Aviso mínimo]** de 2 horas. La disponibilidad se establece de lunes a viernes, de 8 a.m. a 5 p.m. PST, con una pausa de una hora al mediodía.
 
-![Página de disponibilidad del calendario con todos los campos rellenados](assets/meetings-availability-2.png)
+   >[!NOTE]
+   >
+   >Para agregar más opciones de tiempo, haga clic en el signo más (![icono de signo más](assets/icon-plus-sign.png)).
+
+   ![Página de disponibilidad del calendario con todos los campos rellenados](assets/meetings-availability-2.png)
+
+1. Haga clic en **[!UICONTROL Guardar]**.
 
 ### Gestión representativa {#representative}
 
@@ -58,16 +70,16 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
 ## Actividades {#activities}
 
-### Reservas de reunión {#bookings}
+Haga clic en **[!UICONTROL Reservas de reuniones]** para revisar las reuniones que se han reservado, ver qué información se ha capturado, saber cuándo se programó la reunión y mucho más.
 
-Revise las reuniones que se han reservado, qué información se ha capturado, cuándo se programó la reunión y mucho más.
+### Página de reunión {#bookings}
 
 ![Página de reservas de reuniones](assets/meetings-bookings-1.png){width="800" zoomable="yes"}
 
 ## Analytics {#analytics}
 
-### Rendimiento de reunión {#performance}
+Haga clic en **[!UICONTROL Rendimiento de la reunión]** para revisar varias categorías de análisis diferentes, incluyendo cuántos visitantes han solicitado reuniones y cuántas se han perdido. Se puede ver cuál ha sido la tendencia de las reuniones, quiénes son los representantes que tomaron las reuniones, y mucho más.
 
-En _[!UICONTROL Rendimiento de la reunión]_, revise varias categorías de análisis diferentes, incluyendo cuántos visitantes han solicitado reuniones, cuántos se han perdido, cuál ha sido la tendencia de las reuniones, quiénes son los representantes que tomaron las reuniones y mucho más.
+### Página Reuniones {#performance}
 
 ![Página de rendimiento de la reunión](assets/meetings-performance-1.png){width="800" zoomable="yes"}
