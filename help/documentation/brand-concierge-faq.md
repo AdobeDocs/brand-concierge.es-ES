@@ -3,9 +3,9 @@ title: Preguntas frecuentes
 description: Obtenga respuestas a las preguntas frecuentes sobre Adobe Brand Concierge.
 role: User,Admin
 level: Beginner
-source-git-commit: 0f010472e3f49c5d84e9875a33215d56e020bef8
+source-git-commit: 06911f38d17882cdae8441d5cbdbcdf786d9e6bb
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1537'
 ht-degree: 1%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 1%
 Lea esta sección para obtener respuestas a las preguntas frecuentes sobre Brand Concierge.
 
 ## General
+
+### ¿Por qué utilizar Brand Concierge? ¿Qué problema resuelve?
+
+Se investiga más en herramientas de IA externas (por ejemplo, ChatGPT, Gemini) en lugar de en sitios web de marcas. Los visitantes quieren cada vez más &quot;ir al grano&quot;; por ejemplo, &quot;Háblame de X&quot;, &quot;¿Puedo hacer Y?&quot; Brand Concierge le ayuda a mantener esa conversación en su sitio: cuando los visitantes llegan a sus páginas (incluido un asistente de IA), pueden continuar la conversación con un asistente formado en el contenido. Ofrece una experiencia coherente y basada en la marca en lugar de perderlas por respuestas genéricas en otra parte.
 
 ### ¿En qué se diferencia Brand Concierge de los bots de chat?
 
@@ -47,13 +51,29 @@ Puede conectar los siguientes tipos de fuentes de datos a Brand Concierge:
 |------------------|---------------------------|
 | **Producto y contenido** | Catálogos de productos<br>Sistemas de inventario<br>Bases de conocimiento y documentación<br>Contenido del sitio web a través de la carga de URL CSV<br>Contenido de Adobe Experience Manager<br>Datos de Adobe Commerce |
 | **Datos del cliente** | Perfiles de Adobe Experience Platform<br>Datos de comportamiento de Adobe Analytics<br>Atributos de cliente de origen<br>API de terceros (configuradas) |
-| **Formato de archivo CSV** | Una columna que contiene las direcciones URL del sitio web<br>Brand Concierge rastrea las direcciones URL y extrae el contenido automáticamente<br>Se pueden cargar varios archivos CSV para diferentes áreas de contenido durante el procesamiento de actualizaciones de estado en tiempo real<br>2 |
+| **Formato de archivo CSV** | Una columna que contiene las direcciones URL del sitio web<br>Brand Concierge rastrea las direcciones URL y extrae el contenido automáticamente<br>Se pueden cargar varios archivos CSV en diferentes áreas de contenido para procesar las actualizaciones de estado en tiempo real<br>2 |
 
 Todos los datos siguen sus reglas de gobernanza.
 
 ### ¿Pueden los clientes excluirse de la personalización?
 
 Sí. Los clientes que no desean participar reciben respuestas útiles sin personalización de comportamiento. Puede configurar la administración de la exclusión para que coincida con sus políticas de privacidad.
+
+### ¿Hay implicaciones para el consentimiento o la privacidad?
+
+Sí. **Datos de conversación:** Si la conversación incluye información personal o identificable, la recopilación, el almacenamiento y el uso debe cumplir con su consentimiento y política de privacidad (por ejemplo, RGPD, CCPA). **Analytics:** Cuando Concierge envía eventos a Experience Platform o Analytics, dichos eventos pueden estar sujetos al consentimiento y al control existentes (por ejemplo, cadenas de consentimiento y etiquetas de uso de datos). Recomendamos tratar a Concierge como cualquier otra experiencia digital de origen: asegúrese de que el banner de consentimiento y las preferencias de su sitio cubran los datos y análisis de conversación y chat, y alinee los datos de evento con su estrategia de consentimiento. Debe contar con una revisión legal y de cumplimiento antes del lanzamiento.
+
+## Perfiles y personalización
+
+### ¿Concierge utiliza perfiles de clientes (por ejemplo, Real-Time CDP) para adaptar las respuestas? ¿Qué sucede si el visitante está a mitad de camino a través de un recorrido?
+
+En el ámbito actual, Concierge se centra en visitantes anónimos: responde desde la conversación y su base de conocimientos (sitio web y catálogo), no desde una búsqueda en vivo de identidad o estado de recorrido en Real-Time CDP. Las funciones de hoja de ruta incluyen nutrición de posibles clientes, transferencia a ventas y resegmentación, que se alinearán más con los perfiles y el contexto de recorrido conocidos. Adaptación de respuestas por &quot;¿Tiene este visitante un perfil?&quot; o &quot;¿dónde están en un recorrido?&quot; es una mejora futura. Por ahora, la experiencia es coherente para los visitantes anónimos.
+
+## Despliegue y cronología
+
+### ¿Cuánto tiempo se tarda normalmente en publicar?
+
+Con un trabajo paralelo y una colaboración activa, muchas implementaciones llegan a go-live en unas 6-9 semanas. El ensayo se puede iniciar rápidamente una vez que las entradas (direcciones URL, catálogo, directrices de marca) estén listas. Después de la configuración del acuerdo y la producción, puede pasar por el ajuste de calidad y un despliegue controlado (por ejemplo, 5 % y luego escalar al 100 % en una semana).
 
 ## Configuración y control
 
@@ -109,6 +129,12 @@ Los consultores de Adobe se encargan de la ingeniería rápida en segundo plano:
 
 Esto garantiza que su conserje utilice patrones de mensajes de IA de prácticas recomendadas mientras mantiene los requisitos específicos de su marca.
 
+## Expresión y tono de la marca
+
+### Si pongo &quot;juguetón y entusiasta&quot; en Brand Expression, ¿la IA se excederá?
+
+Sí que puede. Algunos clientes han informado de que la IA tiende a exagerar el entusiasmo cuando se establece como &quot;lúdica y entusiasta&quot;; por ejemplo, signos de exclamación dobles o superlativos fuertes. Para audiencias reguladas o médicas (por ejemplo, farmacéuticas, nutrición temprana), recomendamos disminuir el entusiasmo y el juego mientras mantiene el tono conversacional e informal. Use ajustes moderados y sintonice en función de los comentarios; para las industrias reguladas, inclinarse hacia lo &quot;conversacional&quot; en lugar de lo &quot;entusiasta&quot;.
+
 ## Rendimiento y análisis
 
 ### ¿Cómo se mide el éxito?
@@ -118,7 +144,7 @@ Puede medir la eficacia mediante el tablero de Brand Concierge. Utilice el table
 | Métrica | Qué Rastrea |
 |--------|----------------|
 | **Participación** | Volumen de conversación, duración de la sesión |
-| **Satisfacción** | Puntuaciones de opiniones, clasificaciones de comentarios |
+| **Satisfacción** | puntuaciones de opinión, clasificaciones de comentarios |
 | **Conversión** | Tasas de compra para asistencia frente a para asistencia |
 | **Temas** | Preguntas y solicitudes más comunes |
 | **Entrega** | Tasas y motivos de escalación |
@@ -126,9 +152,9 @@ Puede medir la eficacia mediante el tablero de Brand Concierge. Utilice el table
 
 También se puede integrar con Adobe Analytics para un análisis más profundo.
 
-### ¿Qué debo hacer si los sentimientos caen?
+### ¿Qué debo hacer si la opinión cae?
 
-Si nota una caída en la percepción, investigue las causas subyacentes revisando las consultas fallidas recientes, comprobando si hay huecos en el contenido, analizando los comentarios negativos, probando el tono adecuado y verificando cualquier problema técnico. Una vez identificadas las causas básicas, aborde de inmediato las mismas y continúe monitoreando la mejoría.
+Si observa una caída en la opinión, investigue las causas subyacentes revisando las consultas fallidas recientes, comprobando si hay huecos en el contenido, analizando los comentarios negativos, probando el tono adecuado y comprobando cualquier problema técnico. Una vez identificadas las causas básicas, aborde de inmediato las mismas y continúe monitoreando la mejoría.
 
 ## Integración y asistencia técnica
 
