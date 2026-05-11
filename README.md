@@ -1,11 +1,12 @@
 ---
-source-git-commit: c56716d4fa5255537999d7693965ad75def09114
+source-git-commit: cf5df71a6adf8e6661fdd5e6100ed94301ffaec9
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 94%
 
 ---
 # Artículo sobre colaboración
+
 
 Agradecemos las contribuciones de nuestra comunidad, así como de los empleados de Adobe que no forman parte de los equipos de documentación.
 
