@@ -3,9 +3,24 @@ title: Documentación del producto
 description: Aprenda a configurar y utilizar las funciones clave de Brand Concierge.
 role: User,Admin
 level: Beginner
-source-git-commit: 2c3f3d009d8fef3eaf5bf32d73672eeda7ba05c8
+TQID: https://experienceleague.adobe.com/Ob3NAKyD929Ije-Y7UPO1hMfDYDi-UJ0gINpGlxiYGM
+product_v2:
+  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: be0b12f950b911baf48596f7b145fcaa2c6880cf
 workflow-type: tm+mt
-source-wordcount: '1768'
+source-wordcount: 1793
 ht-degree: 1%
 
 ---
@@ -24,7 +39,7 @@ Brand Concierge tiene varias funciones clave, entre ellas:
 * **Controlar la marca:** Ajustar la voz, el tono y la duración de la respuesta para cumplir con el estándar y el enfoque de tu marca en particular.
 * **Vista previa e iteración:** Utilice una interfaz de vista previa completa para simular conversaciones y realizar ajustes en directo.
 * **Sistema de comentarios:** Usa un sistema de comentarios que permita a los usuarios proporcionar calificaciones de pulgares hacia arriba o hacia abajo, junto con formularios de comentarios detallados que cubran la cobertura de respuesta, el tono, la calidad y las características.
-* **Panel de análisis:** Aproveche un panel de análisis con tecnología Customer Journey Analytics para métricas como conversaciones, opiniones y participación.
+* **Panel de Analytics:** Aproveche un panel de análisis con tecnología Customer Journey Analytics para métricas como conversaciones, opinión y participación.
 
 ## Introducción {#getting-started}
 
@@ -109,7 +124,7 @@ Use la interfaz de [!UICONTROL Configuración de habilidades] para dar forma a l
 1. Seleccione una aptitud (por ejemplo, Asesoramiento de productos).
 1. Responda a las preguntas de configuración posteriores.
 
-   Los ejemplos de preguntas incluyen: _¿Qué debe saber el conserje sobre los productos?_, _¿Qué reglas de negocio deben seguirse?_, _Qué palabras clave deben evitarse?_
+   Los ejemplos de preguntas incluyen: _¿Qué debe saber el conserje sobre los productos?_, _¿Qué reglas comerciales deben seguirse?_, _¿Qué palabras clave deben evitarse?_
 
 1. Conecte [fuentes de conocimientos](#knowledge-sources) relevantes.
 1. Habilitar funciones adicionales (reserva de reuniones).
@@ -179,7 +194,7 @@ La sección de comentarios proporciona varias funciones importantes para ayudarl
 1. También puede inspeccionar el panel para ver si hay comentarios conectados adicionales.
 1. Cuando termine, puede exportar las perspectivas para utilizarlas más adelante y restringir el flujo de trabajo.
 
-### Configuraciones  {#configurations}
+### Configuraciones {#configurations}
 
 La ficha _[!UICONTROL Configuraciones]_ es una vista resumida de solo lectura que puede usar para revisar la configuración completa del conserje. Esto refleja directamente la página principal después de completar la configuración inicial y proporciona resúmenes de sus detalles, fuentes de conocimientos, habilidades y expresiones de marca configuradas. Puede utilizar esta función como referencia antes de obtener una vista previa o compartir su conserje.
 
