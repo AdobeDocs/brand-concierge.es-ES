@@ -29,6 +29,6 @@ Descubra cómo Brand Concierge cierra el bucle entre su sitio web y Marketo Enga
 * El tipo de actividad nativa &quot;Reunión programada en Concierge&quot; registrado en el registro de actividades del posible cliente, con contexto completo: duración de la reunión, paso de ventas, tipo de enrutamiento y estado de la reserva
 * Uso de tipos de actividades de Brand Concierge en campañas inteligentes de Marketo como déclencheur, filtros o datos de campañas por lotes
 
->[!VIDEO](https://video.tv.adobe.com/v/3492225?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492228?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
