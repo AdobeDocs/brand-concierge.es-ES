@@ -4,17 +4,13 @@ description: Obtenga información sobre cómo configurar reuniones en Adobe Bran
 level: Beginner
 role: User,Admin
 TQID: https://experienceleague.adobe.com/vfX6M2-ts7d2-AxKGjaP1Ygkk3FGSGRl4CHslcKYSXU
-product_v2:
-  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: be0b12f950b911baf48596f7b145fcaa2c6880cf
+product_v2: id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 1b1598dc2c6308ae38a2aeaf14576c9c55be5ba5
 workflow-type: tm+mt
-source-wordcount: 347
-ht-degree: 2%
+source-wordcount: 329
+ht-degree: 3%
 
 ---
 
@@ -22,7 +18,9 @@ ht-degree: 2%
 
 Conozca todos los ajustes de _Meeting_ en Adobe Brand Concierge. Conecte el calendario, establezca la disponibilidad, vea los análisis y mucho más.
 
-Relacionado: [Reservar una reunión](../getting-started/meeting-booking.md) vídeo
+>[!NOTE]
+>
+>También puedes ver el vídeo [Reservar una reunión](../getting-started/meeting-booking.md).
 
 ## Configuración {#configuration}
 
@@ -36,11 +34,9 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
    ![Página principal de Adobe Experience Platform](assets/meetings-connect-1.png){width="800" zoomable="yes"}
 
-1. En _Configuración_, haga clic en **[!UICONTROL Configuración de representante]**.
+1. En _Configuración_, haga clic en **Configuración del perfil**. En la pestaña **[!UICONTROL Configuración del calendario]**, elija el calendario que desee.
 
    ![Página de configuración del calendario](assets/meetings-connect-2.png)
-
-   En la pestaña _[!UICONTROL Configuración del calendario]_, elija el calendario que desee. En este ejemplo, está seleccionando **[!UICONTROL Outlook]**.
 
 1. Elija una cuenta que ya haya iniciado sesión o agregue una nueva.
 
@@ -54,15 +50,13 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Establecer disponibilidad del calendario {#availability}
+### Establecer disponibilidad del calendario {#calendar-availability}
 
 1. Haga clic en la ficha **[!UICONTROL Disponibilidad del calendario]**.
 
    ![Página de disponibilidad de calendario en blanco](assets/meetings-availability-1.png)
 
 1. Elija la configuración que desee.
-
-   En este ejemplo, elige **[!UICONTROL Duración de la reunión]** de 30 minutos con un **[!UICONTROL Tiempo de búfer]** de 15 minutos y un **[!UICONTROL Aviso mínimo]** de 2 horas. La disponibilidad se establece de lunes a viernes, de 8 a.m. a 5 p.m. PST, con una pausa de una hora al mediodía.
 
    >[!NOTE]
    >
@@ -72,11 +66,18 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
 1. Haga clic en **[!UICONTROL Guardar]**.
 
-### Gestión representativa {#representative}
+### Establecer disponibilidad de chat en vivo {#chat-availability}
+
+1. Haz clic en la pestaña **[!UICONTROL Disponibilidad del chat en vivo]** y elige la configuración que desees. Haga clic en **Guardar** cuando haya terminado.
+
+   ![Página de disponibilidad del chat en vivo con todos los campos rellenados](assets/meetings-availability-3.png)
+
+
+### Administrar miembros {#manage}
 
 **Solo administradores**. Vea cuál de sus representantes ha conectado correctamente su calendario.
 
-![Página de administración de representantes](assets/meetings-representative-1.png){width="800" zoomable="yes"}
+![Página de administración de representantes](assets/manage-members-1.png)
 
 ## Actividades {#activities}
 
