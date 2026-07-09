@@ -4,35 +4,19 @@ description: 'Obtenga información acerca de la demostración para el conserje d
 role: User
 level: Beginner
 doc-type: Value Video
-duration: 111
+duration: 130
 last-substantial-update: 2026-07-09T00:00:00Z
 jira: KT-21955
 hide: true
-source-git-commit: 2f42997f9c4510d3a5e4cf321795dcedcbebdd5d
+source-git-commit: 82c76581434ed1e1a4ae2e8846c4cab9ad369f24
 workflow-type: tm+mt
-source-wordcount: '31'
-ht-degree: 16%
+source-wordcount: '91'
+ht-degree: 0%
 
 ---
 
-# Demostración para el conserje de la marca - Vídeo de valor
+# Creación y administración de un Brand Concierge con Co-Worker
 
-## Información general
+En este vídeo se explica cómo crear y administrar un Brand Concierge (BC) directamente desde Co-Worker utilizando indicaciones en lenguaje natural. Muestra el flujo de extremo a extremo: solicitando a un colaborador que cree una Brand Concierge para un sitio web, viendo el modal de progreso de creación en tiempo real, abriendo la previsualización de CBC y, a continuación, solicitando al análisis de conversación que abra el panel Informes de Brand Concierge para una organización de IMS y zona protegida determinadas.
 
-<!-- Briefly describe what this page covers and why it matters to the reader. -->
-
-## Requisitos previos
-
-<!-- List anything the reader needs before starting (permissions, tools, prior knowledge). -->
-
-## Pasos
-
-<!-- Replace this section heading with a task-specific verb phrase, e.g. 'Configure the data stream'. -->
-
-1. Paso uno.
-1. Paso dos.
-1. Paso tres.
-
-## Recursos adicionales
-
-<!-- Link to related documentation, tutorials, or community posts. -->
+>[!VIDEO](https://video.tv.adobe.com/v/3494747)
