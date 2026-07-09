@@ -19,4 +19,4 @@ ht-degree: 0%
 
 En este vídeo se explica cómo crear y administrar un Brand Concierge (BC) directamente desde Co-Worker utilizando indicaciones en lenguaje natural. Muestra el flujo de extremo a extremo: solicitando a un colaborador que cree una Brand Concierge para un sitio web, viendo el modal de progreso de creación en tiempo real, abriendo la previsualización de CBC y, a continuación, solicitando al análisis de conversación que abra el panel Informes de Brand Concierge para una organización de IMS y zona protegida determinadas.
 
->[!VIDEO](https://video.tv.adobe.com/v/3494747)
+>[!VIDEO](https://video.tv.adobe.com/v/3494750?captions=spa)
