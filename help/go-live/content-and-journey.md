@@ -32,7 +32,7 @@ Adobe Brand Concierge solo puede responder preguntas así como al contenido que 
 * Cómo preparar el contenido antes de compartirlo
 * Cómo escribir una definición de recorrido de visitante de una página
 
->[!VIDEO](https://video.tv.adobe.com/v/3496007/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496010/?captions=spa&learn=on)
 
 ## Vídeos relacionados de esta serie
 
