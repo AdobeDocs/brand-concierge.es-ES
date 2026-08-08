@@ -32,6 +32,6 @@ Su conserje no debe sonar como un bot de chat genérico, debe sonar como su marc
 * Opciones visuales de widget: ubicación, modo de visualización, color y fuente
 * Nombrar al asistente, escribir su saludo y elegir las indicaciones de inicio
 
->[!VIDEO](https://video.tv.adobe.com/v/3496942/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496945/?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
