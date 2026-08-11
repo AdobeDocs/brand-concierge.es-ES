@@ -43,6 +43,6 @@ Obtenga información sobre la posibilidad de reservar una reunión que se encuen
 * Ver lo rápido y fácil que sucede una transferencia a un agente activo
 * Descubra cómo se administran y configuran estas herramientas
 
->[!VIDEO](https://video.tv.adobe.com/v/3478534?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478537?captions=spa&learn=on&enablevpops)
 
 Para obtener más documentación, consulte [Reuniones](../documentation/meetings.md).
