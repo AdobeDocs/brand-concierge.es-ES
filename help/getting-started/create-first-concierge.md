@@ -42,7 +42,7 @@ Aprenda a configurar su primer Brand Concierge de Adobe en solo unos minutos. Pr
 * Cómo revisar y ajustar el perfil de marca, las instrucciones y las indicaciones de inicio antes de guardar
 * Cómo probar el servicio de conserjería con preguntas de ejemplo sobre equipos de escritorio y móviles
 
->[!VIDEO](https://video.tv.adobe.com/v/3476521?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3476524?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
 
