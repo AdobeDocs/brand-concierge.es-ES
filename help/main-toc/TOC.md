@@ -2,10 +2,10 @@
 user-guide-title: Adobe Brand Concierge
 breadcrumb-title: Adobe Brand Concierge
 user-guide-description: Explorar Adobe Brand Concierge
-source-git-commit: 35e52ffb75d13d1580c85055d8393a18f6e63714
+source-git-commit: 16136f0d5470a39cbf260f4b1eadc6918d0212b4
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 29%
+source-wordcount: '75'
+ht-degree: 28%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 29%
 + Documentación {#documentation}
   + [Ayuda de Brand Concierge](../documentation/overview.md)
   + [Reuniones](../documentation/meetings.md)
+  + {hide-from-toc}[Marco de aptitudes e integraciones](../documentation/skills-and-integrations.md)
   + [Preguntas frecuentes](../documentation/brand-concierge-faq.md)
 + Notas de la versión {#release-notes}
   + [Información de la versión actual](../release-notes/current.md)
