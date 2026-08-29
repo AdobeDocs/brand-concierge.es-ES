@@ -32,6 +32,6 @@ El Brand Concierge de Adobe comienza con las opciones visuales que Adobe ya ha h
 * Cómo editar el encabezado y el subencabezado del mensaje de bienvenida, incluido el color, el peso y el tamaño del texto
 * Cómo agregar, quitar y editar tarjetas de mensajes de inicio, incluido el texto de la tarjeta, las imágenes y el color de fondo
 
->[!VIDEO](https://video.tv.adobe.com/v/3502259)
+>[!VIDEO](https://video.tv.adobe.com/v/3502262?captions=spa)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
