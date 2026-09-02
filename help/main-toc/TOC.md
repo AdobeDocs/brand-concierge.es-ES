@@ -2,9 +2,9 @@
 user-guide-title: Adobe Brand Concierge
 breadcrumb-title: Adobe Brand Concierge
 user-guide-description: Explorar Adobe Brand Concierge
-source-git-commit: aa3c84f02c1f49c55876248a305bb01ea2a7ec28
+source-git-commit: 498bbea05a689b36dd4b8f88e0867e7440fa1d38
 workflow-type: tm+mt
-source-wordcount: '107'
+source-wordcount: '130'
 ht-degree: 20%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 20%
   + [Obtenga información sobre los ID de flujo de datos](../getting-started/learn-about-datastream-ids.md)
   + [Integración con Marketo](../getting-started/integration-with-marketo.md)
   + [Personaliza el estilo visual de tu conserje](../getting-started/customize-visual-style.md)
+  + [Más información sobre los conjuntos de evaluación](../getting-started/learn-about-evaluation-sets.md)
+  + [Despliegue el conserje](../getting-started/deploy-the-concierge.md)
 + Guía de Go-live {#go-live-guide}
   + [Bienvenido a su recorrido de go-live](../go-live/welcome.md)
   + [Preparación del contenido y de la experiencia del visitante](../go-live/content-and-journey.md)
@@ -35,6 +37,18 @@ ht-degree: 20%
     + {hide-from-toc}[Agregar un usuario a la organización](../documentation/user-and-access-management/add-a-user-to-the-org.md)
     + {hide-from-toc}[Agregar un usuario al rol](../documentation/user-and-access-management/add-a-user-to-the-role.md)
     + {hide-from-toc}[Crear un rol](../documentation/user-and-access-management/create-a-role.md)
+  + Fuentes de conocimiento {#knowledge-sources}
+    + {hide-from-toc}[ks](../documentation/knowledge-sources/knowledge-sources.md)
+  + Gestión de conserjería {#concierge-management}
+    + {hide-from-toc}[cm](../documentation/concierge-management/concierge-management.md)
+  + Evaluación {#evaluation}
+    + {hide-from-toc}[e](../documentation/evaluation/evaluation.md)
+  + Implementación {#deployment}
+    + {hide-from-toc}[d](../documentation/deployment/deployment.md)
+  + Lista de comprobación de Go-live {#go-live-checklist}
+    + {hide-from-toc}[glc](../documentation/go-live-checklist/go-live-checklist.md)
+  + Analytics {#analytics}
+    + {hide-from-toc}[a](../documentation/analytics/analytics.md)
 + Notas de la versión {#release-notes}
   + [Información de la versión actual](../release-notes/current.md)
 + {hide-from-toc}[Demostración para conserje de marca - Vídeo de valor](../demo-videos/demo-for-brand-concierge-value-video.md)
