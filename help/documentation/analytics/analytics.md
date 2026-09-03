@@ -2,9 +2,9 @@
 title: Analizar el rendimiento del conserje
 description: Aprenda a revisar el análisis de conserjería, inspeccionar transcripciones de conversaciones, añadir preguntas de visitantes a conjuntos de evaluación y abrir informes de Customer Journey Analytics.
 hide: true
-source-git-commit: fc22eb8e724437483e5d87283f46fb629a4e507c
+source-git-commit: da4b30fa292b911987aebec378af420b293ea594
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '442'
 ht-degree: 0%
 
 ---
@@ -80,10 +80,6 @@ El tablero de CJA incluye:
 - Recomendaciones de conserjería hechas durante las conversaciones.
 
 Utilice el tablero para examinar las tendencias a lo largo del tiempo e identificar los cambios en la participación, los comentarios, la intención y la opinión de los visitantes.
-
-## Exportar conversaciones
-
-El material de origen identifica el ID de conversación como una forma de hacer coincidir transcripciones con registros de otros sistemas, pero no documenta un mecanismo de exportación.
 
 >[!IMPORTANT]
 >

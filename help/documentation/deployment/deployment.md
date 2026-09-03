@@ -2,9 +2,9 @@
 title: Implementar un conserje
 description: Obtenga información sobre cómo implementar un Brand Concierge configurando una secuencia de datos, instalando el script de implementación, definiendo reglas de superficie y comprobando la implementación.
 hide: true
-source-git-commit: fc22eb8e724437483e5d87283f46fb629a4e507c
+source-git-commit: da4b30fa292b911987aebec378af420b293ea594
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -80,17 +80,3 @@ Una vez que el equipo del sitio web instala la secuencia de comandos y se guarda
 >[!TIP]
 >
 >Pruebe una página incluida y una página excluida. Esto confirma que las reglas de superficie están funcionando como se pretende antes de que el conserje esté disponible en general.
-
-## Preguntas abiertas y notas de ámbito
-
-El material de origen no define los siguientes detalles:
-
-- La lista completa y canónica de tipos de evento enviados al conjunto de datos. Los ejemplos proporcionados incluyen clics, envíos de formularios, reuniones reservadas y charlas en directo, pero la lista completa debe confirmarse con ingeniería.
-- Si la configuración del flujo de datos difiere entre los clientes de prueba y los de pago.
-- En qué producto de análisis específico se ve la actividad del flujo de datos; el material de origen se refiere a esto únicamente como &quot;Analytics&quot;.
-
-Estas preguntas pueden superponerse a los requisitos de telemetría independientes y deben resolverse con el equipo de ingeniería o de producto adecuado antes de publicar las directrices de implementación como referencia definitiva.
-
-## Contenido de origen incompleto
-
-La fuente suministrada termina abruptamente en el paso 8, que no tiene contenido.
