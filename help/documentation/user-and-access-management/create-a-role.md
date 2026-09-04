@@ -1,9 +1,9 @@
 ---
 title: Crear una función con permiso de Brand Concierge
 description: Obtenga información sobre cómo crear una función y concederle el permiso necesario para acceder a Brand Concierge.
-source-git-commit: fc22eb8e724437483e5d87283f46fb629a4e507c
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '212'
 ht-degree: 1%
 
 ---
@@ -21,10 +21,6 @@ Cree una función en Permisos de Adobe Experience Platform para otorgar a los us
 ## Creación de la función
 
 1. Iniciar sesión en `experienceplatform.adobe.com`.
-
-   >[!NOTE]
-   >
-   >Confirme la dirección URL de producción con el departamento de ingeniería antes de publicar este procedimiento. La grabación de origen utilizaba una URL informal o posiblemente mal transcrita.
 
 1. En el panel de navegación de la izquierda, desplácese hasta **Permisos** y selecciónelos.
 1. Vaya a **Roles** para ver los roles existentes y seleccione **Crear un nuevo rol**.
@@ -45,8 +41,3 @@ Cree una función en Permisos de Adobe Experience Platform para otorgar a los us
 ## Próximos pasos
 
 Una vez creada la función, agregue usuarios. Para obtener más información, consulte [Agregar usuarios al rol de Brand Concierge](./add-a-user-to-the-role.md).
-
-## Cosas que debe tener en cuenta
-
-- El proceso de creación y administración de zonas protegidas está fuera del ámbito de este procedimiento.
-- Confirme si se han planificado permisos granulares de Brand Concierge adicionales antes de definir un modelo de función a largo plazo.

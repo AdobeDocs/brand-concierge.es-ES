@@ -2,9 +2,9 @@
 title: Lista de comprobación de Go-live para un conserje
 description: Utilice esta lista de comprobación para revisar la preparación del conserje antes de ponerla a disposición de los visitantes reales y para establecer la cadencia operativa inicial después del lanzamiento.
 hide: true
-source-git-commit: fc22eb8e724437483e5d87283f46fb629a4e507c
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '387'
 ht-degree: 0%
 
 ---
@@ -13,10 +13,6 @@ ht-degree: 0%
 # Lista de comprobación de Go-live para un conserje
 
 Utilice esta lista de comprobación para completar una revisión de la preparación previa al lanzamiento antes de poner un conserje a disposición de los visitantes reales. La lista de comprobación consolida los criterios de preparación descritos en las fuentes de conocimientos, la gestión de conserjería, la evaluación y los flujos de trabajo de implementación.
-
->[!NOTE]
->
->Considere la posibilidad de publicar esta lista de comprobación como una página independiente. Se puede vincular una página independiente directamente desde las comunicaciones de lanzamiento y se puede hacer referencia a ella independientemente del conjunto de documentación completo.
 
 ## Cómo utilizar esta lista de comprobación
 
@@ -50,9 +46,3 @@ Complete cada elemento antes del lanzamiento y registre el propietario o la evid
 
 - [ ] **Se ha confirmado el acceso a Analytics.** Compruebe que las partes interesadas relevantes pueden acceder a los análisis necesarios.
 - [ ] **Se ha establecido una cadencia de revisión.** Establezca un proceso recurrente para revisar las transcripciones de las conversaciones y añadir nuevas preguntas de evaluación a medida que aparezcan.
-
-## Antes de publicar esta lista de comprobación como requisito de la versión
-
->[!IMPORTANT]
->
->Esta lista de comprobación se deriva de los flujos de trabajo descritos en la guía. No es una puerta de lanzamiento oficial definida por el producto. Valide con los criterios de versión definidos por el producto y el control de calidad antes de publicarlo como un requisito formal de lanzamiento.

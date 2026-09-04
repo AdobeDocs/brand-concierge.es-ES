@@ -2,9 +2,9 @@
 title: Creación y administración de fuentes de conocimiento para Brand Concierge
 description: Obtenga información sobre cómo crear AEM Sites, vínculos a sitios web y fuentes de conocimiento de catálogos de productos para Brand Concierge, monitorizar el estado de procesamiento y resolver problemas de rastrea.
 hide: true
-source-git-commit: da4b30fa292b911987aebec378af420b293ea594
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '867'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ Un conserje responde a las preguntas utilizando únicamente sus fuentes de conoc
 
 ## Elegir una fuente de conocimiento
 
+Brand Concierge admite los siguientes tipos de fuentes de conocimientos:
+
 | Fuente de conocimiento | Úselo cuando | Capacidad principal |
 | --- | --- | --- |
 | AEM Sites (índice de IA de contenido) | El cliente utiliza AEM Sites as a Cloud Service con la inteligencia artificial aplicada al contenido habilitada. | Utiliza un índice de inteligencia artificial aplicada al contenido existente y hace que el contenido actualizado de AEM Sites esté disponible sin un paso separado de rastrea o actualización. |
@@ -30,7 +32,7 @@ Un conserje responde a las preguntas utilizando únicamente sus fuentes de conoc
 
 >[!IMPORTANT]
 >
->El material de origen indica que los clientes que venden a través de Adobe Commerce con un catálogo grande deben utilizar la integración MCP de Commerce en su lugar. Los detalles sobre esa integración están fuera del ámbito de este artículo.
+>Los clientes que vendan a través de Adobe Commerce con un catálogo grande deben utilizar la integración MCP de Commerce. Los detalles sobre esa integración están fuera del ámbito de este artículo.
 
 ## Creación de una fuente de conocimientos de AEM Sites
 

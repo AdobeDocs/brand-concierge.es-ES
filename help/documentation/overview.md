@@ -18,9 +18,9 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 320bf9530164830eae88075663bdbd6216556b5a
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: 1999
+source-wordcount: 2047
 ht-degree: 1%
 
 ---
@@ -43,12 +43,12 @@ Brand Concierge tiene varias funciones clave, entre ellas:
 
 ## Introducción {#getting-started}
 
-Puede acceder a Brand Concierge desde el panel de Adobe Experience Cloud. En un nivel superior, puede realizar estas tareas en el tutorial Página principal:
+Puede acceder a Brand Concierge desde el panel de Adobe Experience Cloud. En un nivel superior, se realizan las siguientes tareas:
 
-1. [Crear un conserje](#homepage)
-1. [Agregar fuentes de conocimiento](#knowledge-sources)
-1. [Configurar aptitudes](#skills-configuration)
-1. [Especifique la expresión de marca](#brand-expression).
+1. [Crear un conserje](#homepage) a partir de la dirección URL de un sitio web. Se genera automáticamente una fuente de conocimiento inicial, una expresión de marca y una aptitud de línea de base.
+1. [Revise y perfeccione las fuentes de conocimientos](#knowledge-sources) según sea necesario.
+1. [Configurar aptitudes adicionales](#skills-configuration) más allá de la aptitud de línea de base.
+1. [Ajuste la expresión de marca](#brand-expression) si los valores predeterminados generados necesitan cambios.
 
 Para ver un tutorial en vídeo, consulta [Crear tu primer conserje](../getting-started/create-first-concierge.md)
 
@@ -56,26 +56,27 @@ Las secciones siguientes describen en detalle cada tarea y las opciones de la in
 
 ## Crear un conserje {#homepage}
 
-La página principal de Brand Concierge está diseñada para que sea fácil de usar y eficiente, y le guía por los pasos esenciales de la configuración con una guía detallada para el usuario que la visita por primera vez. Un banner principal destacado describe las acciones clave, como especificar el nombre y el propósito de su conserje, añadir fuentes de conocimiento, configurar habilidades relevantes y definir la expresión de su marca.
+La creación de un conserje a partir de una sola URL de sitio web es el punto de partida recomendado para un usuario que accede por primera vez. La página principal de Brand Concierge lee el sitio y crea una línea de base de trabajo automáticamente: no se requiere configuración manual para comenzar.
 
-A medida que avanza, un rastreador visual muestra claramente qué componentes de configuración se han completado y resalta las tareas restantes. Para apoyar aún más sus esfuerzos, la página principal incluye una sección inspiradora con vídeos y demostraciones de funciones de conserjería, como recomendaciones de productos. También puede acceder rápidamente a la documentación de Experience League para obtener información técnica más detallada.
-
-Una vez finalizada la instalación, un resumen de la configuración proporciona una vista completa de sus detalles, organizados con pestañas para facilitar los ajustes y refinamientos continuos.
+A medida que se completa la instalación, un resumen de la configuración proporciona una vista completa de sus detalles, organizados con pestañas para facilitar los ajustes y refinamientos continuos. La página de inicio también incluye una sección inspiradora con vídeos y demostraciones de funciones de conserjería, como recomendaciones de productos, y un acceso rápido a la documentación de Experience League para obtener perspectivas técnicas más detalladas.
 
 **Elementos clave**
 
-* **Introducción para usuarios noveles**: Un banner destacado con pasos para configurar su conserje (nombre/propósito, fuentes de conocimiento, habilidades, expresión de marca).
-* **Rastreador de progreso**: indicadores visuales de componentes de configuración completados frente a pendientes.
+* **Creación con un solo clic**: escribe la dirección URL de un sitio web para generar automáticamente una expresión de marca inicial, un perfil de marca, instrucciones, protecciones, una fuente de conocimiento y una aptitud básica.
+* **Revisión guiada**: Cada elemento generado se presenta para su revisión antes de guardarse, por lo que no se activará nada sin tener la oportunidad de ajustarlo primero.
 * **Sección inspiradora**: vídeos y demostraciones que muestran las funciones de conserjería (por ejemplo, recomendaciones de productos).
 * **Vínculos de documentación**: Acceso rápido a los recursos de Experience League para obtener información técnica más detallada.
 * **Resumen de configuración**: vista posterior a la instalación de todos los detalles, con fichas para refinar.
 
 **Para crear un conserje**
 
-1. Vaya al titular del tutorial y, a continuación, haga clic en **[!UICONTROL Introducción]**.
-1. Escriba un nombre para el conserje y defina su propósito (por ejemplo, _Recomendar productos personalizados_).
-1. Siga los pasos guiados para continuar.
-1. Una vez completada la configuración, vuelva a la página principal para monitorizar o editar su conserje.
+1. Escriba la URL del sitio web de la marca y seleccione **[!UICONTROL Crear]**.
+1. Revise la expresión de marca generada (como la formalidad, la calidez, el juego y la energía) y ajústela según sea necesario.
+1. Revise el perfil de marca generado, incluidos los objetivos, productos y servicios, la audiencia de destino y los diferenciadores, y ajústelo según sea necesario.
+1. Revise las instrucciones, protecciones y sugerencias generadas y ajústelas según sea necesario.
+1. Seleccione **[!UICONTROL Guardar]**. El conserje está listo para probar en la vista previa.
+
+Para obtener información detallada sobre este flujo, incluido lo que se configura automáticamente, consulte [Administrar un conserje](./concierge-management/concierge-management.md).
 
 >[!TIP]
 >
@@ -83,7 +84,7 @@ Una vez finalizada la instalación, un resumen de la configuración proporciona 
 
 ### Fuentes de conocimiento {#knowledge-sources}
 
-[!UICONTROL Fuentes de conocimientos] le ayudan a administrar las fuentes de datos que alimentan las respuestas de su conserje. Puede acceder a [!UICONTROL Fuentes de conocimiento] después de cargar los archivos iniciales. [!UICONTROL Fuentes de conocimiento] tiene varios elementos clave que considerar, como:
+[!UICONTROL Fuentes de conocimientos] le ayudan a administrar las fuentes de datos que alimentan las respuestas de su conserje. Se crea automáticamente una fuente de conocimientos inicial cuando crea un conserje a partir de una dirección URL de un sitio web; utilice esta área para revisarla o agregar más. [!UICONTROL Fuentes de conocimiento] tiene varios elementos clave que considerar, como:
 
 * **Lista de Source:** Muestra todos los elementos cargados, como archivos CSV con vínculos a sitios web, e indica su estado como procesados o pendientes.
 * **Interfaz de carga:** Permite arrastrar y soltar o examinar archivos CSV que contienen direcciones URL, que el sistema rastreará para extraer información.
@@ -109,40 +110,40 @@ Una vez finalizada la instalación, un resumen de la configuración proporciona 
 
    Utilice la página principal para editar o eliminar las fuentes de conocimientos según sea necesario. También puede volver a conectar una fuente de conocimiento si se producen cambios.
 
+Para ver el conjunto completo de tipos de fuentes de conocimientos y los pasos para solucionar problemas, consulte [Crear y administrar fuentes de conocimientos para Brand Concierge](./knowledge-sources/knowledge-sources.md).
+
 ### Configurar aptitudes {#skills-configuration}
 
-Use la interfaz de [!UICONTROL Configuración de habilidades] para dar forma a la experiencia de su conserje mediante la configuración de habilidades como **Asesoramiento de productos**. Responda al cuestionario para proporcionar información que los consultores de Adobe utilizarán posteriormente para realizar ingeniería rápida. La configuración de aptitudes tiene una serie de elementos clave que hay que tener en cuenta, como:
+Las habilidades determinan lo que un conserje puede hacer por los visitantes, como **Asesoramiento de productos** para recomendaciones de productos o **Asesoramiento de sitios** para preguntas generales de marca. Seleccione **[!UICONTROL Examinar aptitudes]** para ver el catálogo de aptitudes disponible y activar las aptitudes que necesita el conserje.
 
-* **Selector de habilidades:** Puede elegir entre las habilidades disponibles, como el Asesoramiento de productos para hacer recomendaciones de productos.
-* **Cuestionario:** Completará una serie de preguntas para proporcionar información sobre productos, reglas comerciales, palabras clave que se deben evitar y conexiones de origen.
-* **Vista previa:** Tiene la opción de realizar ajustes en tiempo real y ver cómo afectan los ajustes a las respuestas, con vínculos a la página de vista previa.
-* **Habilitar reserva de reuniones:** Puede permitir que los visitantes programen reuniones directamente con los representantes de negocios.
+* **Catálogo de habilidades:** Elija entre las habilidades disponibles, como Asesoramiento del sitio, Asesoramiento de productos y habilidades que respaldan la reserva de reuniones o el chat en vivo con un representante de ventas.
+* **Configuración:** Para cada aptitud, establezca su nombre, descripción y las intenciones (frases o temas de déclencheur) que deben invocarla.
+* **Integraciones:** Adjunta la integración que una habilidad necesita para hacer su trabajo, o selecciona **[!UICONTROL Usar recomendado]** para que el Compositor seleccione una automáticamente.
+* **Vista previa:** La prueba cambia inmediatamente en la vista previa activa.
 
 **Para configurar habilidades**
 
-1. Vaya al rastreador de progreso en la página principal y luego haga clic en **[!UICONTROL Configurar habilidades]**.
-1. Seleccione una aptitud (por ejemplo, Asesoramiento de productos).
-1. Responda a las preguntas de configuración posteriores.
+1. En el conserje, selecciona **[!UICONTROL Examinar aptitudes]**.
+1. Seleccione una aptitud para activarla (por ejemplo, Asesoramiento de productos).
+1. Defina el nombre, la descripción y las intenciones de la aptitud.
+1. Adjunte la integración requerida o seleccione **[!UICONTROL Usar recomendado]**.
+1. Seleccione **[!UICONTROL Guardar]** y pruebe el cambio en la vista previa activa.
 
-   Los ejemplos de preguntas incluyen: _¿Qué debe saber el conserje sobre los productos?_, _¿Qué reglas comerciales deben seguirse?_, _¿Qué palabras clave deben evitarse?_
-
-1. Conecte [fuentes de conocimientos](#knowledge-sources) relevantes.
-1. Habilitar funciones adicionales (reserva de reuniones).
-1. Envíe para su procesamiento.
+Para ver el catálogo completo de aptitudes e integración, consulte [Marco de aptitudes e integraciones](./skills-and-integrations.md).
 
 ### Expresión de marca {#brand-expression}
 
-Puede usar la interfaz _[!UICONTROL Brand expression]_ para personalizar la personalidad y el estilo de las respuestas de su conserje. Puede acceder a la expresión de marca desde las fases de configuración o a través de la barra lateral de previsualización para ver los cambios en curso.
+La expresión de marca controla la personalidad y el estilo de las respuestas de su conserje. Se redacta automáticamente cuando crea un conserje, y puede acceder a él posteriormente desde la configuración de tono y voz del conserje para los cambios en curso.
 
-Con Brand Expression, puede utilizar controles deslizantes para personalizar la configuración de voz y tono de su conserje. Puede seleccionar entre las opciones &quot;Amistoso&quot;, &quot;Profesional&quot; y &quot;Enérgico&quot;. Además, puede configurar las longitudes de respuesta a su gusto. Puede configurar su conserje para que devuelva salidas cortas, medianas o largas, según la visión de su marca.
+La expresión de marca se establece utilizando atributos como formalidad, calidez, alegría y energía, en lugar de un solo estilo con nombre. También puede configurar la longitud de respuesta (corta, media o larga) para que coincida con las preferencias de su marca.
 
 **Para personalizar la expresión de marca**
 
-1. En la página principal, haga clic en **[!UICONTROL Personalizar expresión de marca]**.
-2. A continuación, configure la voz, el tono y la longitud de respuesta preferida de su marca.
+1. En el conserje, abra **[!UICONTROL Tone &amp; Voice]**.
+2. Ajuste la formalidad, la calidez, el juego, la energía y la longitud de respuesta preferida.
 3. Seleccione **[!UICONTROL Guardar]** para asegurarse de que los cambios se reflejen en las respuestas futuras.
 
-### Previsualización y prueba {#preview-and-test}
+### Vista previa y prueba {#preview-and-test}
 
 Pruebe el conserje antes de iniciar a los clientes con los modos Vista previa y Vista del comprobador.
 
@@ -242,7 +243,7 @@ Para proporcionar una experiencia transparente y fiable, los usuarios de Brand C
 
 La información que proporcione durante la conversación debe comunicar claramente tres cosas a los usuarios finales.
 
-1. _La conversión usa IA generativa_
+1. _La conversación usa IA generativa_
 
    Informe a los usuarios de que la IA genera las respuestas para que entiendan que están interactuando con un sistema automatizado.
 
