@@ -3,9 +3,9 @@ title: Marco de aptitudes e integraciones
 description: Aprenda cómo las habilidades y las integraciones trabajan juntas en el marco de conserjería. Las habilidades definen el comportamiento, mientras que las integraciones se conectan a los datos y proporcionan capacidad.
 role: User, Admin
 level: Beginner
-source-git-commit: 16136f0d5470a39cbf260f4b1eadc6918d0212b4
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1698'
 ht-degree: 0%
 
 ---
@@ -64,27 +64,31 @@ Una integración proporciona capacidad de, pero no juzga. Espera a que una aptit
 
 ## Integraciones disponibles de forma predeterminada
 
-A continuación se muestran las cuatro integraciones del panel **Integraciones de exploración** del Compositor.
+A continuación se muestran las integraciones del panel **Integraciones de exploración** del Compositor.
 
 | Integración | Qué hace | Notas |
 | --- | --- | --- |
 | Búsqueda en base de conocimientos | Source para obtener información, precios, funciones y documentación del producto de una marca, mediante el rastreo del sitio | Este se crea automáticamente en la creación del conserje, rellenada por el rastree del sitio |
 | Búsqueda por IA de contenido | Busca en el contenido de la marca a través de la inteligencia artificial aplicada al contenido | Una fuente de contenido alternativa; normalmente, solo se necesita una de Búsqueda de la base de conocimiento o Búsqueda por IA de contenido a la vez |
-| Vinculación de entidades/Asignación de catálogos de productos | Resuelve productos o menciones de la marca en un mensaje del usuario para entidades de catálogo específicas | Integración de soporte, utilizada junto con una integración de búsqueda en lugar de sola |
+| Vinculación de entidades | Resuelve productos o menciones de la marca en un mensaje del usuario para entidades de catálogo específicas | Integración de soporte, utilizada junto con una integración de búsqueda en lugar de sola |
 | MCP de Commerce | Servidor MCP de Commerce administrado por Adobe: búsqueda de productos, detalles, variantes y descubrimiento de facetas/atributos, respaldados por Adobe Live Search | No en la línea de base; se añade manualmente en los casos de uso de Commerce |
+| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere una configuración con un calendario del representante de ventas, a través del producto Sales Qualifier complementario |
+| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas, a través del producto Sales Qualifier complementario |
 
 ![Panel de integraciones de exploración que muestra cuatro tarjetas de integración: Búsqueda por IA de contenido, Vinculación de entidades, Búsqueda en la base de conocimiento y MCP de Commerce](assets/skills-and-integrations-2.png){width="800" zoomable="yes"}
 
 ## Aptitudes disponibles de forma predeterminada
 
-En el catálogo se envían cuatro aptitudes. Cada una enumera sus integraciones recomendadas.
+A continuación, se muestran las aptitudes en el panel **aptitudes de exploración** del compositor. Cada una enumera sus integraciones recomendadas.
 
-| Aptitud | Para qué sirve | Integraciones recomendadas |
+| Habilidad | Para qué sirve | Integraciones recomendadas |
 | --- | --- | --- |
 | Site Advisory | Preguntas generales de marca: políticas, preguntas frecuentes, programas, procedimientos y asistencia | Búsqueda en la base de conocimiento, Búsqueda por IA de contenido y vinculación de entidades |
-| Asesoramiento de productos | Descubre e investiga productos: tarjetas de producto basadas en nombres y preguntas de productos en prosa | Búsqueda en la base de conocimiento, vinculación de entidades/asignación de catálogos |
+| Asesoramiento de productos | Descubre e investiga productos: tarjetas de producto basadas en nombres y preguntas de productos en prosa | Búsqueda en la base de conocimiento, vinculación de entidades |
 | Descubrimiento del catálogo Adobe Commerce | Busque, examine, filtre y obtenga detalles completos sobre productos con un catálogo en directo | Herramientas de MCP de Commerce: buscar productos de Commerce, detalles del producto, variantes del producto, facetas del producto y atributos en los que se puede buscar |
 | Comparación de productos de Adobe Commerce | Comparación paralela de dos o más productos con nombre en una tabla para Commerce | Herramientas de MCP de Commerce: buscar productos de Commerce, detalles del producto |
+| Encuentro de Libros con Ventas | Sugiere y facilita la reserva de una reunión con un representante de ventas | Integración de Meeting Booking |
+| Chat en vivo con Ventas | Sugiere y facilita un envío de chat en vivo a un representante de ventas | Integración de Live Chat |
 
 Las dos aptitudes de comercio son capacidades solo de catálogo y dependen de la integración de Commerce MCP, que no forma parte de la línea de base. En un conserje que no sea de comercio, Site Advisory y Product Advisory se ejecutan con la búsqueda de la base de conocimiento creada automáticamente.
 

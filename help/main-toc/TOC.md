@@ -2,10 +2,10 @@
 user-guide-title: Adobe Brand Concierge
 breadcrumb-title: Adobe Brand Concierge
 user-guide-description: Explorar Adobe Brand Concierge
-source-git-commit: 13db0491c987a08492820ac216e20feb87f30e44
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 19%
+source-wordcount: '154'
+ht-degree: 16%
 
 ---
 
@@ -39,17 +39,17 @@ ht-degree: 19%
     + {hide-from-toc}[Agregar un usuario al rol](../documentation/user-and-access-management/add-a-user-to-the-role.md)
     + {hide-from-toc}[Crear un rol](../documentation/user-and-access-management/create-a-role.md)
   + Fuentes de conocimiento {#knowledge-sources}
-    + {hide-from-toc}[ks](../documentation/knowledge-sources/knowledge-sources.md)
+    + {hide-from-toc}[Crear y administrar fuentes de conocimiento para Brand Concierge](../documentation/knowledge-sources/knowledge-sources.md)
   + Gestión de conserjería {#concierge-management}
-    + {hide-from-toc}[cm](../documentation/concierge-management/concierge-management.md)
+    + {hide-from-toc}[Administrar un conserje](../documentation/concierge-management/concierge-management.md)
   + Evaluación {#evaluation}
-    + {hide-from-toc}[e](../documentation/evaluation/evaluation.md)
+    + {hide-from-toc}[Evaluar a un conserje](../documentation/evaluation/evaluation.md)
   + Implementación {#deployment}
-    + {hide-from-toc}[d](../documentation/deployment/deployment.md)
+    + {hide-from-toc}[Implementar un conserje](../documentation/deployment/deployment.md)
   + Lista de comprobación de Go-live {#go-live-checklist}
-    + {hide-from-toc}[glc](../documentation/go-live-checklist/go-live-checklist.md)
+    + {hide-from-toc}[Lista de comprobación de lanzamiento para un conserje](../documentation/go-live-checklist/go-live-checklist.md)
   + Analytics {#analytics}
-    + {hide-from-toc}[a](../documentation/analytics/analytics.md)
+    + {hide-from-toc}[Analizar el rendimiento del conserje](../documentation/analytics/analytics.md)
 + Notas de la versión {#release-notes}
   + [Información de la versión actual](../release-notes/current.md)
 + {hide-from-toc}[Demostración para conserje de marca - Vídeo de valor](../demo-videos/demo-for-brand-concierge-value-video.md)

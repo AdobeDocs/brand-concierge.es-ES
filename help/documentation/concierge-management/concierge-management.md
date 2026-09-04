@@ -2,9 +2,9 @@
 title: Administrar un conserje
 description: Aprenda a crear una Brand Concierge a partir de un sitio web, a configurar sus integraciones, habilidades, instrucciones, tono y estilo visual, y a probarla antes de la implementación.
 toc: true
-source-git-commit: fc22eb8e724437483e5d87283f46fb629a4e507c
+source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
 workflow-type: tm+mt
-source-wordcount: '1967'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
@@ -74,10 +74,10 @@ Seleccione **Examinar integraciones** para ver el catálogo de integraciones dis
 |---|---|---|
 | Búsqueda en base de conocimientos | Busca contenido del sitio web | Se configura automáticamente cuando se crea el conserje |
 | Búsqueda por IA de contenido | Busca contenido de AEM Sites | Relevante para los clientes de AEM Sites as a Cloud Service |
-| Catálogo de productos | Muestra tarjetas de producto o vínculos de una lista de productos cargada | Destinado a catálogos más pequeños, no comerciales |
+| Vinculación de entidades | Resuelve productos o menciones de la marca en un mensaje del visitante para entidades de catálogo específicas | Integración de soporte, que generalmente se utiliza junto con una integración de búsqueda en lugar de solo |
 | MCP de Commerce | Se conecta a un catálogo de Adobe Commerce activo para buscar productos, detalles de productos y comparaciones | No está habilitado de forma predeterminada; requiere códigos o claves del equipo de comercio o TI |
-| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Capacidad B2B |
-| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Capacidad B2B |
+| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere configuración con el calendario de un vendedor |
+| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas |
 
 ### Activar y configurar una integración
 
@@ -96,14 +96,6 @@ Seleccione **Examinar integraciones** para ver el catálogo de integraciones dis
 
 Puede agregar más de una instancia de la misma integración, como instancias que apunten a diferentes fuentes de conocimiento. Se puede configurar una aptitud para utilizar una instancia de integración específica.
 
-### Información de integración que requiere confirmación
-
-Los siguientes detalles no se establecieron en el material de origen y deben confirmarse antes de la publicación como documentación del producto:
-
-- Dirección URL de producción completa para iniciar sesión en `experienceplatform.adobe.com`.
-- Si un conserje tiene un límite en el número de instancias de integración.
-- La hoja de ruta y el proceso para integraciones personalizadas o propias, que se mencionaron como planificadas pero no detalladas.
-
 ## Configurar aptitudes
 
 Las habilidades determinan lo que un conserje puede hacer por los visitantes. Seleccione **Examinar aptitudes** para ver el catálogo de aptitudes disponible.
@@ -111,6 +103,7 @@ Las habilidades determinan lo que un conserje puede hacer por los visitantes. Se
 | Habilidad | Objetivo | Integración o configuración requeridas |
 |---|---|---|
 | Site Advisory | Responde preguntas generales de marca, incluidas preguntas frecuentes, políticas, precios, instrucciones y temas de asistencia | Contenido del sitio web; activo de forma predeterminada |
+| Asesoramiento de productos | Ayuda a los visitantes a descubrir e investigar productos a través de tarjetas de productos basadas en nombres y preguntas de productos en prosa | Búsqueda en la base de conocimiento, vinculación de entidades |
 | Descubrimiento del catálogo Adobe Commerce | Busca, explora, filtra y recupera detalles sobre productos de un catálogo en vivo | Integración de Commerce MCP |
 | Comparación de productos de Adobe Commerce | Proporciona una comparación en paralelo de productos con nombre | Integración de Commerce MCP |
 | Encuentro de Libros con Ventas | Sugiere y facilita la reserva de una reunión | Integración de Meeting Booking |
@@ -131,10 +124,6 @@ Las habilidades determinan lo que un conserje puede hacer por los visitantes. Se
 >[!TIP]
 >
 >Si dos aptitudes pueden responder a la misma pregunta, el enrutamiento puede llegar a ser incoherente. Mantenga los déclencheur de aptitudes distintos y específicos en lugar de utilizar intenciones superpuestas.
-
-### Información de aptitud personalizada que requiere confirmación
-
-El material de origen menciona una capacidad planificada para crear habilidades totalmente personalizadas, pero no proporciona una hoja de ruta o proceso. Confirme los pasos de disponibilidad y creación antes de documentar esta capacidad como compatible.
 
 ## Añadir instrucciones de conserjería
 
@@ -191,7 +180,7 @@ Los componentes de chat controlan los elementos individuales que los visitantes 
 | Comentarios | El control de clasificación de pulgares hacia arriba o hacia abajo mostrado después de cada respuesta |
 | Tarjeta de producto | Diseño y estilo de las tarjetas de producto, incluidos los colores y los botones |
 
-## Configuración de las capacidades B2B
+## Configurar la reserva de reuniones y el chat en vivo
 
 Meeting Booking y Live Chat permiten a los visitantes reservar reuniones con representantes de ventas o iniciar una conversación en directo con un representante. Estas funciones están impulsadas por un producto complementario llamado Sales Qualifier.
 
@@ -233,14 +222,6 @@ Cuando las funcionalidades están activas:
 - Hay disponible en Analytics un informe de rendimiento de la reunión.
 - Las reuniones y los encuentros de chat se envían a Marketo como actividades, junto con los datos de actividades existentes.
 
-### Información B2B que requiere confirmación
-
-El material de origen identifica los siguientes artículos como no resueltos:
-
-- Live Chat no tiene su propio panel de análisis; se describió como una brecha de producto en curso en lugar de una brecha de documentación.
-- Ruta de inicio de sesión exacta de `experienceplatform.adobe.com` para Sales Qualifier.
-- Si Meeting Booking y Live Chat requieren licencias o derechos independientes.
-
 ## Compartir un vínculo de vista previa
 
 Un vínculo de vista previa que se puede compartir permite que las partes interesadas revisen e interactúen con un conserje sin acceso de Compositor y sin implementar el conserje en un sitio web activo.
@@ -250,14 +231,6 @@ Un vínculo de vista previa que se puede compartir permite que las partes intere
 1. Comparta el vínculo con los revisores.
 
 1. Los revisores pueden interactuar con el conserje a través del vínculo sin iniciar sesión en Composer.
-
-### Previsualizar información del vínculo que requiere confirmación
-
-Confirme los siguientes detalles antes de publicar este procedimiento como un flujo de trabajo completo del producto:
-
-- La ubicación y etiqueta exactas de la acción de uso compartido en la interfaz de usuario.
-- Si los vínculos de vista previa caducan o se pueden revocar.
-- Si el uso del vínculo de vista previa se rastrea separadamente del análisis en directo.
 
 ## Prueba antes de la implementación
 
