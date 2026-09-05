@@ -2,10 +2,10 @@
 title: Administrar un conserje
 description: Aprenda a crear una Brand Concierge a partir de un sitio web, a configurar sus integraciones, habilidades, instrucciones, tono y estilo visual, y a probarla antes de la implementación.
 toc: true
-source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
+source-git-commit: 3f05cb0dd8c11620b0ed7e254d0f4f9b24408b08
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 0%
+source-wordcount: '1761'
+ht-degree: 1%
 
 ---
 
@@ -161,10 +161,6 @@ La configuración de estilo visual controla el aspecto del conserje, lo que incl
 - Colores de tarjeta
 
 Edite la configuración en la interfaz de usuario y utilice la vista previa en directo para revisar los cambios. Seleccione **Guardar** para que los cambios sean permanentes.
-
->[!NOTE]
->
->El material de origen indica que puede ser posible un aspecto totalmente personalizado más allá de las opciones disponibles en la interfaz de usuario, a través de un script de implementación independiente. El procedimiento de script de implementación no se incluyó y debe documentarse por separado una vez confirmado.
 
 ## Configuración de componentes de chat
 

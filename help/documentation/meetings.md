@@ -1,6 +1,6 @@
 ---
-title: Configurar y organizar reuniones
-description: Obtenga información sobre cómo configurar reuniones en Adobe Brand Concierge.
+title: Configurar la reserva de reunión
+description: Obtenga información sobre cómo configurar las reservas de reuniones en Adobe Brand Concierge, incluidas las conexiones de calendario, la disponibilidad, el acceso de los miembros y el análisis de rendimiento.
 level: Beginner
 role: User,Admin
 TQID: https://experienceleague.adobe.com/vfX6M2-ts7d2-AxKGjaP1Ygkk3FGSGRl4CHslcKYSXU
@@ -11,14 +11,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 1b1598dc2c6308ae38a2aeaf14576c9c55be5ba5
+source-git-commit: fc5e30918271360ea2256b49d1c200fb3eda298b
 workflow-type: tm+mt
-source-wordcount: 329
+source-wordcount: 338
 ht-degree: 3%
 
 ---
 
-# Reuniones {#meetings}
+# Convocatoria de reunión {#meetings}
 
 Conozca todos los ajustes de _Meeting_ en Adobe Brand Concierge. Conecte el calendario, establezca la disponibilidad, vea los análisis y mucho más.
 
@@ -34,7 +34,7 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
 1. Inicie sesión en [Adobe Experience Platform](https://experience.adobe.com/){target="_blank"}.
 
-1. Seleccione **[!UICONTROL Calificador de ventas]**.
+1. Seleccione **[!UICONTROL Sales Qualifier]**.
 
    ![Página principal de Adobe Experience Platform](assets/meetings-connect-1.png){width="800" zoomable="yes"}
 
@@ -68,7 +68,7 @@ Conéctese a su cuenta de Outlook o Google y determine varias opciones de config
 
    ![Página de disponibilidad del calendario con todos los campos rellenados](assets/meetings-availability-2.png)
 
-1. Haga clic en **[!UICONTROL Guardar]**.
+1. Haga clic en **[!UICONTROL Save]**.
 
 ### Establecer disponibilidad de chat en vivo {#chat-availability}
 
