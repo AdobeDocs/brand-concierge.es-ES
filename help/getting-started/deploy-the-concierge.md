@@ -32,6 +32,6 @@ La implementación de Adobe Brand Concierge hace que esté disponible para los v
 * Comparación entre la instalación de componentes y las opciones de instalación de página completa del script
 * Cómo configurar reglas de superficie haciendo coincidir dominios y rutas (cualquiera, empieza por, termina por, es igual a)
 
->[!VIDEO](https://video.tv.adobe.com/v/3502969?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502984?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Implementar un conserje](../documentation/deployment/deployment.md).
