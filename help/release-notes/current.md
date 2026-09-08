@@ -2,9 +2,9 @@
 description: Notas de la versión actuales de Adobe Brand Concierge.
 title: Notas de la versión actual
 feature: Release Information
-source-git-commit: 39d49289351c4e9a8b733e91daf8692df472031a
+source-git-commit: 35ce8a7b460e97336246293ad5e53ee83ead5108
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,26 @@ ht-degree: 0%
 Adobe Brand Concierge sigue un modelo de entrega continua, lo que permite a Adobe ofrecer nuevas funciones, mejoras y correcciones de forma continua.
 
 Todas las funciones están disponibles generalmente a menos que se indique lo contrario.
+
+## Agosto de 2026 {#august-2026}
+
+* **Compositor 2.0**: la creación de un conserje se rediseña en torno a una sola dirección URL del sitio web. Composer redacta automáticamente un punto de partida alineado con la marca, que incluye la expresión de marca, el perfil de la marca, las instrucciones, las protecciones, una fuente de conocimiento y una aptitud de línea de base, listos para revisar y publicar en minutos sin necesidad de configuración manual para comenzar.
+
+* **Marco de habilidades e integraciones**: los conserjes se crean a partir de un catálogo de habilidades e integraciones de autoservicio, que se pueden descubrir y configurar a través de las habilidades de exploración y las integraciones de exploración. Esto incluye funciones nuevas y lanzadas anteriormente, como asesoramiento del sitio, asesoramiento de productos y detección y comparación de catálogos de Commerce.
+
+* **Personalización de componentes de chat y estilo visual**: personalice los colores, las fuentes, el mensaje de bienvenida y los componentes de chat individuales de un conserje, incluidas las burbujas de chat, las sugerencias de mensajes, las citas, los controles de comentarios y las tarjetas de producto, con los cambios que se previsualizan en directo.
+
+* **Múltiples conserjes por espacio aislado**: Cree y administre varios conserjes en un solo espacio aislado, cada uno con una configuración independiente.
+
+* **Eventos del lado del cliente y funciones de devolución de llamada**: registre una sola devolución de llamada para observar eventos del ciclo de vida del cliente web, interacciones del usuario, respuestas, comentarios y errores en tiempo real, para usarla para enviar datos de participación a Adobe Analytics, Google Analytics u otros sistemas de terceros.
+
+* **Soporte de Conserjería Multilingüe (Disponibilidad Limitada)**: Implemente un Conserjería en otros idiomas además del inglés, con soporte validado para español y francés. Cada idioma de destino se ejecuta como su propio conserje en la misma zona protegida y se enruta automáticamente mediante el idioma de solicitud.
+
+* **Implementación: Configuración de flujo de datos y superficie**: configure un flujo de datos para rastrear la participación del visitante y, a continuación, defina reglas de superficie para controlar en qué páginas y dominios aparece el conserje, usando coincidencia de dominios y rutas (cualquiera, empieza por, termina por o coincidencia exacta).
+
+## Junio de 2026 {#june-2026}
+
+* **Integración de Marketo**: Las conversaciones de los visitantes, incluida la captura de posibles clientes en el chat, fluyen automáticamente a Marketo Engage como datos de actividad nativos, disponibles para su uso en campañas inteligentes en déclencheur y por lotes.
 
 ## Abril de 2026 {#april-2026}
 
