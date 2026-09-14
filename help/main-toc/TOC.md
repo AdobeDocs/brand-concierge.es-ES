@@ -2,13 +2,11 @@
 user-guide-title: Adobe Brand Concierge
 breadcrumb-title: Adobe Brand Concierge
 user-guide-description: Explorar Adobe Brand Concierge
-source-git-commit: 9b0ec00c0816dba6ca30042491944c68f51d9caf
+source-git-commit: 26c875494ae9f38fcddbd0a9779f6fa659db3683
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 16%
-
 ---
-
 
 # Adobe Brand Concierge {#content}
 
@@ -53,3 +51,4 @@ ht-degree: 16%
 + Notas de la versión {#release-notes}
   + [Información de la versión actual](../release-notes/current.md)
 + {hide-from-toc}[Demostración para conserje de marca - Vídeo de valor](../demo-videos/demo-for-brand-concierge-value-video.md)
++ [Conversación de voz](../getting-started/voice-conversation.md)
