@@ -8,14 +8,14 @@ doc-type: Technical Video
 duration: 215
 last-substantial-update: 2026-09-14
 jira: KT-22594
-source-git-commit: 26c875494ae9f38fcddbd0a9779f6fa659db3683
+source-git-commit: e15924679ac2731ef367416160368459ef88167a
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '183'
 ht-degree: 0%
 ---
 # Conversación de voz
 
-Adobe Brand Concierge admite un modo de conversación de voz a voz manos libres que permite a los clientes hablar con el conserje en lugar de escribir. Este vídeo muestra cómo habilitar el modo de voz, cómo la detección automática de voz elimina la necesidad de presionar cualquier botón y cómo la voz encaja en la experiencia multimodal completa del conserje junto con las respuestas visuales y de texto.
+Adobe Brand Concierge admite un modo de conversación de voz a voz manos libres que permite a los clientes hablar con el conserje en lugar de escribir. Este vídeo describe cómo activar el modo de voz, cómo la detección automática de voz elimina la necesidad de presionar cualquier botón, y cómo la voz encaja en la experiencia multimodal completa del conserje junto con las respuestas visuales y de texto.
 
 ## ¿Para quién es este vídeo?
 
@@ -31,6 +31,6 @@ Adobe Brand Concierge admite un modo de conversación de voz a voz manos libres 
 * Cómo el conserje sigue siendo una experiencia multimodal completa, devolviendo imágenes, texto y enlaces durante una conversación de voz
 * Cómo apagar la voz si ya no se quiere
 
->[!VIDEO](https://video.tv.adobe.com/v/3503486?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503489?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
