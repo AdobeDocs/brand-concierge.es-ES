@@ -1,5 +1,5 @@
 ---
-title: 'Medir calidad y establecer protecciones: vídeo'
+title: Medir calidad y establecer protecciones
 description: Aprenda a crear un conjunto completo de preguntas y respuestas ideales para medir la calidad de Adobe Brand Concierge, y defina protecciones para preguntas sensibles de los visitantes.
 topic: Personalization,Integrations
 role: Developer
@@ -8,9 +8,9 @@ doc-type: Tutorial
 duration: 174
 last-substantial-update: 2026-09-29
 jira: KT-22188
-source-git-commit: 4cc80eef685fbfc26adaf0b9c47f61e935d45882
+source-git-commit: cd3fb3664f1eb60cba7cae83b8539871b3dcfb72
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '166'
 ht-degree: 0%
 ---
 
@@ -31,7 +31,6 @@ Antes de iniciar Adobe Brand Concierge, necesita una forma de medir si ofrece bu
 * ¿Cuántos pares de preguntas y respuestas se deben incluir y qué categorías se deben cubrir?
 * Por qué importan los ejemplos fuera del ámbito y cómo los rechaza el conserje
 * Usar un primer borrador del conjunto de oro generado por IA y refinarlo
-* Definición de reglas para la reserva de reuniones, el traspaso de representantes en directo, los precios, las reclamaciones legales y las menciones de la competencia
 
 >[!VIDEO](https://video.tv.adobe.com/v/3503942/?learn=on)
 
