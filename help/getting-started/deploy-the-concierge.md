@@ -6,15 +6,22 @@ role: User
 level: Beginner
 doc-type: Technical Video
 duration: 235
-last-substantial-update: 2026-09-02T00:00:00Z
+last-substantial-update: 2026-09-02T00:00:00.000Z
 jira: KT-22483
-source-git-commit: 498bbea05a689b36dd4b8f88e0867e7440fa1d38
+product_v2:
+  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+    internal-label: Brand Concierge
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 0%
-
 ---
-
 # Despliegue el conserje
 
 La implementación de Adobe Brand Concierge hace que esté disponible para los visitantes reales del sitio web. En este vídeo se describe la configuración de una secuencia de datos para rastrear la participación del visitante y, a continuación, se configura la configuración de superficie para controlar en qué páginas y dominios aparece el conserje.
@@ -32,6 +39,6 @@ La implementación de Adobe Brand Concierge hace que esté disponible para los v
 * Comparación entre la instalación de componentes y las opciones de instalación de página completa del script
 * Cómo configurar reglas de superficie haciendo coincidir dominios y rutas (cualquiera, empieza por, termina por, es igual a)
 
->[!VIDEO](https://video.tv.adobe.com/v/3502984?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3502969?learn=on)
 
 Para obtener documentación, consulte [Implementar un conserje](../documentation/deployment/deployment.md).

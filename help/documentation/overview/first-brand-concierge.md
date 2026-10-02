@@ -1,13 +1,14 @@
 ---
 title: Cree y pruebe su primer Brand Concierge
 description: Cree un conserje, personalice la experiencia de marca, ejecute evaluaciones y comparta un vínculo de vista previa para comentarios de las partes interesadas.
-source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
+product_v2:
+  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+    internal-label: Brand Concierge
+source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
-
 ---
-
 # Cree y pruebe su primer Brand Concierge
 
 Este artículo explica cómo crear un conserje y prepararlo para su revisión, desde la configuración inicial hasta compartirlo para recibir comentarios.

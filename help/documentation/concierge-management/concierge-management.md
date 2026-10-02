@@ -2,13 +2,14 @@
 title: Administrar un conserje
 description: Aprenda a crear una Brand Concierge a partir de un sitio web, a configurar sus integraciones, habilidades, instrucciones, tono y estilo visual, y a probarla antes de la implementación.
 toc: true
-source-git-commit: 3f05cb0dd8c11620b0ed7e254d0f4f9b24408b08
+product_v2:
+  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+    internal-label: Brand Concierge
+source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
 workflow-type: tm+mt
 source-wordcount: '1761'
 ht-degree: 1%
-
 ---
-
 
 # Administrar un conserje
 

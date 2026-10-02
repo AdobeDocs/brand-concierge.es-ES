@@ -2,13 +2,14 @@
 title: Lista de comprobación de Go-live para un conserje
 description: Utilice esta lista de comprobación para revisar la preparación del conserje antes de ponerla a disposición de los visitantes reales y para establecer la cadencia operativa inicial después del lanzamiento.
 hide: true
-source-git-commit: 60835c7971d86341194d773f9cf487c4cb6f171a
+product_v2:
+  - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+    internal-label: Brand Concierge
+source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
-
 ---
-
 
 # Lista de comprobación de Go-live para un conserje
 
