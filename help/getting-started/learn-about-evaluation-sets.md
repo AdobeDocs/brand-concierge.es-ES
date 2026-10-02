@@ -39,6 +39,6 @@ Las evaluaciones le indican si su Adobe Brand Concierge responde correctamente, 
 * Cómo ejecutar una evaluación y revisar la puntuación general y las preguntas marcadas
 * Cómo comparar la respuesta real del conserje con la respuesta esperada para cada pregunta marcada
 
->[!VIDEO](https://video.tv.adobe.com/v/3502662)
+>[!VIDEO](https://video.tv.adobe.com/v/3502665?captions=spa)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).

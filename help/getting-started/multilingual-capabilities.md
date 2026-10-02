@@ -38,6 +38,6 @@ Adobe Brand Concierge puede responder en el idioma seleccionado cuando crea un c
 * Cómo afecta el idioma de respuesta seleccionado a las respuestas y a las tarjetas de inicio
 * Cómo las fuentes de conocimiento importadas, como los catálogos y las direcciones URL de los sitios web, admiten respuestas localizadas
 
->[!VIDEO](https://video.tv.adobe.com/v/3503888?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503891?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).

@@ -40,6 +40,6 @@ Adobe Brand Concierge admite un modo de conversación manos libres y voz a voz q
 * Cómo el conserje sigue siendo una experiencia multimodal completa, devolviendo imágenes, texto y enlaces durante una conversación de voz
 * Cómo apagar la voz si ya no se quiere
 
->[!VIDEO](https://video.tv.adobe.com/v/3503486?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503489?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
