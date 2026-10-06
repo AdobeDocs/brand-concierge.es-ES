@@ -41,7 +41,7 @@ Antes de iniciar Adobe Brand Concierge, necesita una forma de medir si ofrece bu
 * Por qué importan los ejemplos fuera del ámbito y cómo los rechaza el conserje
 * Usar un primer borrador del conjunto de oro generado por IA y refinarlo
 
->[!VIDEO](https://video.tv.adobe.com/v/3503942/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3503945/?captions=spa&learn=on)
 
 ## Tutoriales relacionados
 

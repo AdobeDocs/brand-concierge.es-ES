@@ -41,7 +41,7 @@ Prepare su sitio web para Adobe Brand Concierge y elija las funciones opcionales
 * Habilitar el chat en vivo con disponibilidad de representantes, déclencheur de visitantes y reserva de reuniones
 * Conectar Marketo Engage para recibir posibles clientes y actividades, con acceso de administrador y un indicador de funcionalidad
 
->[!VIDEO](https://video.tv.adobe.com/v/3504075/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504078/?captions=spa&learn=on)
 
 ## Tutoriales relacionados
 
