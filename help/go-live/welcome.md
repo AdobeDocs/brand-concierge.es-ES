@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
+source-git-commit: b1cb207b8624703baa0247f2b08c3f522ab4d0db
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '197'
 ht-degree: 0%
 ---
 
@@ -40,5 +40,14 @@ Prepárese para publicar en Adobe Brand Concierge, un asistente con tecnología 
 * La cronología típica de seis a nueve semanas y qué la afecta
 
 >[!VIDEO](https://video.tv.adobe.com/v/3495872/?captions=spa&learn=on)
+
+## Tutoriales relacionados
+
+* [Dar forma a su voz y widget](voice-and-visuals.md)
+* [Preparación del contenido y del recorrido del visitante](content-and-journey.md)
+* [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
+* [Configuración técnica y funciones opcionales](technical-setup-and-optional-features.md)
+* [Su lista de comprobación y plan de despliegue previos a la activación](your-pre-go-live-checklist-and-rollout-plan.md)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
