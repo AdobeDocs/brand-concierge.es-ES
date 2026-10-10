@@ -50,6 +50,6 @@ Prepare su sitio web para Adobe Brand Concierge y elija las funciones opcionales
 * [Preparación del contenido y del recorrido del visitante](content-and-journey.md)
 * [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
 * [Su lista de comprobación y plan de despliegue previos a la activación](your-pre-go-live-checklist-and-rollout-plan.md)
-* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).

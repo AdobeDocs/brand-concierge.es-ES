@@ -46,6 +46,6 @@ Comience con sus compañeros internos y pruebe los flujos de extremo a extremo c
 * [Preparación del contenido y del recorrido del visitante](content-and-journey.md)
 * [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
 * [Configuración técnica y funciones opcionales](technical-setup-and-optional-features.md)
-* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
 
 Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
