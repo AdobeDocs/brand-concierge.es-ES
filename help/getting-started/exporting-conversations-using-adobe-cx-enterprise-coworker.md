@@ -28,7 +28,7 @@ Obtenga información sobre cómo guardar y exportar conversaciones de Adobe Bran
 * Comprenda por qué se requiere Data Distiller para la descarga de CSV que se muestra en el vídeo
 * Siga la política de tratamiento de datos de su organización al almacenar exportaciones que puedan contener información de identificación personal (PII)
 
->[!VIDEO](https://video.tv.adobe.com/v/3504546)
+>[!VIDEO](https://video.tv.adobe.com/v/3504549?captions=spa)
 
 >[!NOTE]
 >
