@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 26648a7597148a5a463c2ae695598a5558ad8f48
+source-git-commit: 4a54cf90e8233e86cabf9329a78cb10f35a630f6
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 0%
 ---
 # Activar conversaciones de voz
@@ -25,13 +25,13 @@ Las conversaciones de voz en Adobe Brand Concierge permiten que los visitantes h
 
 ## Cómo activar la voz
 
-1. En la pantalla de **Inicio**, en **Sus conserjes**, seleccione el conserje que desee editar.
+1. En la pantalla de **Inicio**, en **Sus Conserjes**, seleccione el conserje en el que desea habilitar la voz.
 
-   ![Pantalla de inicio de Brand Concierge con la tarjeta de conserje de Adobe resaltada en Tus conserjes](assets/voice-conversations-1.png){width="800" zoomable="yes"}
+   ![Pantalla de inicio de Brand Concierge con la tarjeta de conserje de Adobe resaltada en Tus conserjes](assets/voice-conversations-1.png){width="600" zoomable="yes"}
 
 1. En la ficha **Diseño**, seleccione **Voz**.
 
-   ![Pestaña Diseño de un conserje con la opción Voz resaltada en el panel izquierdo bajo Expresión de marca](assets/voice-conversations-2.png){width="800" zoomable="yes"}
+   ![Pestaña Diseño de un conserje con la opción Voz resaltada en el panel izquierdo bajo Expresión de marca](assets/voice-conversations-2.png){width="600" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ La voz no limita al conserje al audio. Durante una conversación de voz, el cons
 
 ## Cómo desactivar la voz
 
-1. En la pantalla de **Inicio**, en **Sus conserjes**, seleccione el conserje que desee editar.
+1. En la pantalla de **Inicio**, en **Sus Conserjes**, seleccione el conserje en el que desea deshabilitar la voz.
 
 1. En la ficha **Diseño**, seleccione **Voz**.
 
