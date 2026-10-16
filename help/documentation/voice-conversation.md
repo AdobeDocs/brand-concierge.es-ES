@@ -1,6 +1,6 @@
 ---
-title: Habilitar conversaciones de voz en Brand Concierge
-description: Descripción
+title: Activar conversaciones de voz
+description: Habilite el modo Dictado y Voz en Brand Concierge para que los visitantes puedan hablar manos libres y seguir recibiendo texto, imágenes y enlaces en las respuestas del conserje.
 role: User, Admin
 level: Beginner
 product_v2:
@@ -14,54 +14,55 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d0018106bf63c9c98c90c6e0497ed83439bf3026
+source-git-commit: 4a54cf90e8233e86cabf9329a78cb10f35a630f6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '324'
 ht-degree: 0%
 ---
-# Habilitar conversaciones de voz en Brand Concierge
+# Activar conversaciones de voz
 
-Configurar la entrada de voz y las respuestas orales para un Brand Concierge. Puede habilitar cualquiera de las capacidades de forma independiente o activar ambas para una conversación basada en voz.
+Las conversaciones de voz en Adobe Brand Concierge permiten que los visitantes hablen con un conserje en lugar de escribir. La voz admite interacciones manos libres y mantiene la experiencia multimodal, por lo que el conserje puede seguir proporcionando texto, imágenes y enlaces.
 
 ## Cómo activar la voz
 
-1. En la pantalla de **Inicio**, en **Sus Conserjes**, seleccione el Conserje que desee.
+1. En la pantalla de **Inicio**, en **Sus Conserjes**, seleccione el conserje en el que desea habilitar la voz.
 
-   CAPTURA DE PANTALLA
+   ![Pantalla de inicio de Brand Concierge con la tarjeta de conserje de Adobe resaltada en Tus conserjes](assets/voice-conversations-1.png){width="600" zoomable="yes"}
 
-2. Seleccione la ficha **Diseño**.
-3. En el menú de la izquierda, seleccione **Voz**.
-4. En el panel Voz, habilite las opciones que necesite:
-   - **Dictado**: transcribe en texto lo que dice el usuario.
-   - **Modo de voz** — Lee las respuestas del Conserje en voz alta.
-5. Seleccione **Guardar** en la parte inferior del panel Voz. **Guardar** no está disponible hasta que cambies una configuración.
+1. En la ficha **Diseño**, seleccione **Voz**.
 
-Ambas opciones están desactivadas de forma predeterminada. Habilite tanto para la entrada oral como para las respuestas orales.
+   ![Pestaña Diseño de un conserje con la opción Voz resaltada en el panel izquierdo bajo Expresión de marca](assets/voice-conversations-2.png){width="600" zoomable="yes"}
 
-OTRA VERSIÓN
+   >[!NOTE]
+   >
+   >La primera vez que habilites Voice, debes revisar el aviso de privacidad antes de continuar.
 
-## Habilitar y usar conversaciones de voz en Adobe Brand Concierge
+1. En el panel _Voz_, habilite las opciones que desee y, a continuación, seleccione **Guardar**.
+   - **Dictado**: transcribe en texto lo que dicen los visitantes.
+   - **Modo de voz**: Lee en voz alta las respuestas del conserje.
 
-Las conversaciones de voz de Adobe Brand Concierge permiten a los visitantes hablar con un conserje en lugar de escribir. El modo de voz admite interacciones manos libres al tiempo que mantiene la experiencia multimodal: el conserje aún puede proporcionar texto, imágenes y enlaces.
+   ![Panel de voz con las teclas Dictado y Modo de voz activadas y el botón Guardar en la parte inferior](assets/voice-conversations-3.png)
 
-## Activar modo de voz
+   >[!NOTE]
+   >
+   >Los controles disponibles pueden variar según la configuración de su conserje.
 
-1. Abra la administración de conserjería y seleccione la conserjería que desea configurar.
-2. Activar **Modo de voz**.
-3. La primera vez que se use la voz, revise el aviso de privacidad que se muestra en la experiencia antes de continuar.
+## La experiencia del visitante
 
-Los controles específicos disponibles pueden depender de la configuración de su conserje.
+### Los visitantes pueden hablar de forma natural
 
-## Iniciar una conversación de voz
+Después de activar la voz, los visitantes pueden hablar de forma natural con el conserje. La detección automática de voz comienza y deja de escuchar, por lo que los visitantes no tienen que seleccionar un botón para cada turno.
 
-Una vez habilitado el modo de voz, habla naturalmente con el conserje. La detección automática de voz comienza y deja de escuchar sin necesidad de presionar un botón para cada turno.
+Los visitantes también pueden interrumpir al conserje mientras habla, por lo que no tienen que esperar a que la respuesta termine.
 
-Puede continuar la conversación con preguntas de seguimiento. Las conversaciones de voz también admiten interrupciones naturales mientras el conserje está hablando, por lo que puede hablar de nuevo en lugar de esperar a que la respuesta termine.
+### Respuestas de texto y visuales
 
-## Obtener texto y respuestas visuales
+La voz no limita al conserje al audio. Durante una conversación de voz, el conserje puede devolver texto, imágenes y enlaces como parte de su respuesta.
 
-El modo de voz no limita el concierge al audio. Durante una conversación de voz, el conserje puede devolver texto, imágenes y enlaces como parte de su respuesta.
+## Cómo desactivar la voz
 
-## Desactivar el modo de voz
+1. En la pantalla de **Inicio**, en **Sus Conserjes**, seleccione el conserje en el que desea deshabilitar la voz.
 
-Si ya no se desea usar la voz para la experiencia de conserjería, desactive el **Modo de voz** en la administración de conserjería.
+1. En la ficha **Diseño**, seleccione **Voz**.
+
+1. En el panel _Voz_, deshabilita las opciones que deseas desactivar y, a continuación, selecciona **Guardar**.
