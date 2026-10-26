@@ -2,9 +2,9 @@
 user-guide-title: Adobe Brand Concierge
 breadcrumb-title: Adobe Brand Concierge
 user-guide-description: Explorar Adobe Brand Concierge
-source-git-commit: c80a55306cf078d21071332532717760960dbc47
+source-git-commit: bc1ad01947d4c756c13392c1db85ced46e9cca82
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '223'
 ht-degree: 13%
 ---
 
@@ -32,7 +32,6 @@ ht-degree: 13%
   + [Su lista de comprobación y plan de despliegue previo al lanzamiento](../go-live/your-pre-go-live-checklist-and-rollout-plan.md)
 + Documentación {#documentation}
   + [Ayuda de Brand Concierge](../documentation/overview.md)
-  + [Reuniones](../documentation/meetings.md)
   + [Marco de aptitudes e integraciones](../documentation/skills-and-integrations.md)
   + [Guía para desarrolladores y personalización](../documentation/developer-customization-guide.md)
   + [Conversación de voz](../documentation/voice-conversation.md)
@@ -48,6 +47,14 @@ ht-degree: 13%
     + [Creación y administración de fuentes de conocimiento para Brand Concierge](../documentation/knowledge-sources/knowledge-sources.md)
   + Gestión de conserjería {#concierge-management}
     + [Administrar un conserje](../documentation/concierge-management/concierge-management.md)
+  + Chat en vivo y reserva de reuniones {#sales-handoff}
+    + [Información general](../documentation/sales-handoff/overview.md)
+    + [Configuración de representantes](../documentation/sales-handoff/representative-setup.md)
+    + [Dirija las conversaciones a los representantes](../documentation/sales-handoff/routing-rules.md)
+    + [Activar Live Chat y reserva de reunión](../documentation/sales-handoff/configure-in-composer.md)
+    + [Bandeja de entrada de chat](../documentation/sales-handoff/chat-inbox.md)
+    + [Datos de Brand Concierge en Marketo Engage](../documentation/sales-handoff/marketo-activities.md)
+    + [Monitorización de reuniones y charlas en directo](../documentation/sales-handoff/monitor.md)
   + Evaluación {#evaluation}
     + [Evaluar a un conserje](../documentation/evaluation/evaluation.md)
   + Implementación {#deployment}

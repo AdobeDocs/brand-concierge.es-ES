@@ -5,9 +5,9 @@ toc: true
 product_v2:
   - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
     internal-label: Brand Concierge
-source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
+source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
 workflow-type: tm+mt
-source-wordcount: '1761'
+source-wordcount: '1702'
 ht-degree: 1%
 ---
 
@@ -77,8 +77,8 @@ Seleccione **Examinar integraciones** para ver el catálogo de integraciones dis
 | Búsqueda por IA de contenido | Busca contenido de AEM Sites | Relevante para los clientes de AEM Sites as a Cloud Service |
 | Vinculación de entidades | Resuelve productos o menciones de la marca en un mensaje del visitante para entidades de catálogo específicas | Integración de soporte, que generalmente se utiliza junto con una integración de búsqueda en lugar de solo |
 | MCP de Commerce | Se conecta a un catálogo de Adobe Commerce activo para buscar productos, detalles de productos y comparaciones | No está habilitado de forma predeterminada; requiere códigos o claves del equipo de comercio o TI |
-| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere configuración con el calendario de un vendedor |
-| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas |
+| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere configuración con el calendario de un representante de ventas. Ver [reserva de reuniones y chat en vivo](../sales-handoff/overview.md) |
+| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas. Ver [reserva de reuniones y chat en vivo](../sales-handoff/overview.md) |
 
 ### Activar y configurar una integración
 
@@ -107,8 +107,7 @@ Las habilidades determinan lo que un conserje puede hacer por los visitantes. Se
 | Asesoramiento de productos | Ayuda a los visitantes a descubrir e investigar productos a través de tarjetas de productos basadas en nombres y preguntas de productos en prosa | Búsqueda en la base de conocimiento, vinculación de entidades |
 | Descubrimiento del catálogo Adobe Commerce | Busca, explora, filtra y recupera detalles sobre productos de un catálogo en vivo | Integración de Commerce MCP |
 | Comparación de productos de Adobe Commerce | Proporciona una comparación en paralelo de productos con nombre | Integración de Commerce MCP |
-| Encuentro de Libros con Ventas | Sugiere y facilita la reserva de una reunión | Integración de Meeting Booking |
-| Chat en vivo con Ventas | Sugiere y facilita un traspaso de chat en vivo | Integración de Live Chat |
+| Envío a ventas | Sugiere y facilita una conversación en vivo con un representante de ventas o una reserva de reunión | Integración de Live Chat, integración de Meeting Booking |
 
 ### Activar y configurar una aptitud
 
@@ -179,34 +178,22 @@ Los componentes de chat controlan los elementos individuales que los visitantes 
 
 ## Configurar la reserva de reuniones y el chat en vivo
 
-Meeting Booking y Live Chat permiten a los visitantes reservar reuniones con representantes de ventas o iniciar una conversación en directo con un representante. Estas funciones están impulsadas por un producto complementario llamado Sales Qualifier.
+Meeting Booking y Live Chat permiten a los visitantes reservar reuniones con representantes de ventas o iniciar una conversación en directo con un representante. Estas funcionalidades están impulsadas por un producto complementario denominado [!DNL Adobe Marketo Qualifier] y se ofrecen a los visitantes mediante la habilidad **[!UICONTROL Entregar a ventas]**.
 
 ### Funciones y responsabilidades
 
-- **Especialista en marketing:** configura la aptitud y la integración en Brand Concierge.
-- **Representante de ventas:** Conecta su propio calendario y configura la disponibilidad.
+- **Experto en marketing:** configura la aptitud y las integraciones en Brand Concierge.
+- **Representante de ventas:** Conecta su propio calendario y configura la disponibilidad en [!DNL Adobe Marketo Qualifier].
 
 ### Configurar la reserva de reunión o el chat en vivo
 
-1. En **Integraciones de exploración**, abra **Reserva de reuniones** o **Chat en vivo**. De forma predeterminada, todos los miembros de la organización están disponibles como miembros potenciales del equipo; no se requiere ningún paso por separado para agregar miembros del equipo en esta fase.
+Para ver el procedimiento completo, consulte [Chat en vivo y reserva de reuniones](../sales-handoff/overview.md). La configuración consta de cuatro partes:
 
-1. Haga que cada representante de ventas inicie sesión en `experienceplatform.adobe.com`, abra **Sales Qualifier** y vaya a **Configuración del perfil**.
+1. [Configurar representantes en Adobe Marketo Qualifier](../sales-handoff/representative-setup.md): conecte un calendario, defina el correo electrónico de confirmación y establezca la disponibilidad del calendario y del chat en vivo.
 
-1. Pida a cada representante que conecte un calendario, como Outlook. Microsoft Teams se puede incluir de forma opcional. El representante también puede establecer el asunto de la invitación a la reunión y el texto del correo electrónico.
+1. [Enrutar conversaciones a los representantes](../sales-handoff/routing-rules.md): elija round robin, un agente directo o reglas de enrutamiento personalizadas.
 
-1. Configure la disponibilidad. La disponibilidad se extrae del calendario de forma predeterminada y se puede limitar aún más mediante:
-   - Duración de la reunión
-   - Tiempo de almacenamiento en búfer entre reuniones
-   - Aviso mínimo requerido
-   - Ventanas horarias disponibles específicas
-
-1. Configure la disponibilidad de Live Chat de forma independiente mediante un proceso similar.
-
-1. En Brand Concierge, abra **Miembros administrados** y confirme que los representantes se muestran como disponibles.
-
-1. Active la integración de **Meeting Booking** o **Live Chat**.
-
-1. Vaya a **Examinar aptitudes** y seleccione **Reservar reunión con ventas** y/o **Chat en vivo con ventas**. Defina los déclencheur, adjunte la integración correspondiente y guarde la aptitud.
+1. [Activar Live Chat y reservas para reuniones](../sales-handoff/configure-in-composer.md): conecta las integraciones de **[!UICONTROL Meeting Booking]** y **[!UICONTROL Live Chat]** y, a continuación, activa la habilidad **[!UICONTROL Entrega a ventas]**.
 
 1. Seleccione **Simular** para probar la experiencia de extremo a extremo. Introduzca una pregunta de ejemplo y confirme que se dirige al flujo de aptitud y participación correcto.
 
@@ -214,10 +201,9 @@ Meeting Booking y Live Chat permiten a los visitantes reservar reuniones con rep
 
 Cuando las funcionalidades están activas:
 
-- Los chats entrantes en directo aparecen a los representantes disponibles en tiempo real.
-- Las reuniones reservadas aparecen en una vista de reuniones.
-- Hay disponible en Analytics un informe de rendimiento de la reunión.
-- Las reuniones y los encuentros de chat se envían a Marketo como actividades, junto con los datos de actividades existentes.
+- Los chats en vivo que llegan aparecen a los representantes disponibles en tiempo real en la [bandeja de entrada del chat](../sales-handoff/chat-inbox.md).
+- Las reuniones reservadas aparecen en una vista de reuniones y el informe de rendimiento de las reuniones está disponible en Analytics. Ver [Supervisar reuniones y charlas en vivo](../sales-handoff/monitor.md).
+- Las reuniones y los encuentros de chat se envían a Marketo como actividades, junto con los datos de actividades existentes. Ver [datos de Brand Concierge en Marketo Engage](../sales-handoff/marketo-activities.md).
 
 ## Compartir un vínculo de vista previa
 

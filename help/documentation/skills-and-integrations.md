@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
+source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
 workflow-type: tm+mt
-source-wordcount: '1698'
+source-wordcount: '1705'
 ht-degree: 0%
 ---
 # Marco de aptitudes e integraciones {#skills-and-integrations}
@@ -81,8 +81,8 @@ A continuación se muestran las integraciones del panel **Integraciones de explo
 | Búsqueda por IA de contenido | Busca en el contenido de la marca a través de la inteligencia artificial aplicada al contenido | Una fuente de contenido alternativa; normalmente, solo se necesita una de Búsqueda de la base de conocimiento o Búsqueda por IA de contenido a la vez |
 | Vinculación de entidades | Resuelve productos o menciones de la marca en un mensaje del usuario para entidades de catálogo específicas | Integración de soporte, utilizada junto con una integración de búsqueda en lugar de sola |
 | MCP de Commerce | Servidor MCP de Commerce administrado por Adobe: búsqueda de productos, detalles, variantes y descubrimiento de facetas/atributos, respaldados por Adobe Live Search | No en la línea de base; se añade manualmente en los casos de uso de Commerce |
-| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere una configuración con un calendario del representante de ventas, a través del producto Sales Qualifier complementario |
-| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas, a través del producto Sales Qualifier complementario |
+| Convocatoria de reunión | Permite a los visitantes reservar una reunión con un representante de ventas | Requiere la configuración con un calendario del representante de ventas, a través del producto [!DNL Adobe Marketo Qualifier] complementario. Ver [reserva de reuniones y chat en vivo](sales-handoff/overview.md) |
+| Chat en vivo | Conecta a los visitantes con un representante de ventas en directo | Requiere configuración con disponibilidad de representante de ventas, a través del producto [!DNL Adobe Marketo Qualifier] complementario. Ver [reserva de reuniones y chat en vivo](sales-handoff/overview.md) |
 
 ![Panel de integraciones de exploración que muestra cuatro tarjetas de integración: Búsqueda por IA de contenido, Vinculación de entidades, Búsqueda en la base de conocimiento y MCP de Commerce](assets/skills-and-integrations-2.png){width="800" zoomable="yes"}
 
@@ -96,8 +96,7 @@ A continuación, se muestran las aptitudes en el panel **aptitudes de exploraci�
 | Asesoramiento de productos | Descubre e investiga productos: tarjetas de producto basadas en nombres y preguntas de productos en prosa | Búsqueda en la base de conocimiento, vinculación de entidades |
 | Descubrimiento del catálogo Adobe Commerce | Busque, examine, filtre y obtenga detalles completos sobre productos con un catálogo en directo | Herramientas de MCP de Commerce: buscar productos de Commerce, detalles del producto, variantes del producto, facetas del producto y atributos en los que se puede buscar |
 | Comparación de productos de Adobe Commerce | Comparación paralela de dos o más productos con nombre en una tabla para Commerce | Herramientas de MCP de Commerce: buscar productos de Commerce, detalles del producto |
-| Encuentro de Libros con Ventas | Sugiere y facilita la reserva de una reunión con un representante de ventas | Integración de Meeting Booking |
-| Chat en vivo con Ventas | Sugiere y facilita un envío de chat en vivo a un representante de ventas | Integración de Live Chat |
+| Envío a ventas | Conecta a los visitantes con un asesor de la empresa a través de las herramientas disponibles: sugiere y facilita un chat en vivo o una reserva de reunión. Ver [Activar reserva de reunión y chat en vivo](sales-handoff/configure-in-composer.md) | Chat en vivo, reserva de reunión |
 
 Las dos aptitudes de comercio son capacidades solo de catálogo y dependen de la integración de Commerce MCP, que no forma parte de la línea de base. En un conserje que no sea de comercio, Site Advisory y Product Advisory se ejecutan con la búsqueda de la base de conocimiento creada automáticamente.
 

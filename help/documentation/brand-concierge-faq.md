@@ -6,24 +6,31 @@ level: Beginner
 TQID: https://experienceleague.adobe.com/R-s7wgJ5jtCXnBiLMVdW-6db7cTgSgaJwq4x6IlEJqY
 product_v2:
   - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
+    internal-label: Brand Concierge
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: d23569d059a42297a92b339ecf92852fb3234033
+    internal-label: Customer profiles
+source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
 workflow-type: tm+mt
-source-wordcount: 1958
+source-wordcount: '1980'
 ht-degree: 1%
-
 ---
-
 # Preguntas frecuentes
 
 Lea esta sección para obtener respuestas a las preguntas frecuentes sobre Brand Concierge.
@@ -141,7 +148,7 @@ Todas las pruebas se realizan antes de realizar la implementación en los client
 
 ### ¿Pueden los clientes programar reuniones con nuestro equipo?
 
-Sí, los clientes pueden programar reuniones con su equipo utilizando la habilidad de reserva de reuniones. Para activar esta función, active la aptitud en Configuración de aptitudes, defina intenciones de activación (como &quot;hablar con ventas&quot;), conecte el calendario o el sistema de programación y establezca la disponibilidad y los tipos de reunión. Una vez configuradas, los clientes pueden solicitar reuniones durante las conversaciones, y Brand Concierge facilitará el proceso de programación sin que sea necesario que abandonen el chat.
+Sí. Los clientes pueden programar reuniones con su equipo o iniciar una conversación en vivo con un representante, usando la habilidad **Entrega a ventas** con las integraciones de **Meeting Booking** y **Live Chat**. Los representantes conectan su calendario y establecen su disponibilidad en Adobe Marketo Qualifier, usted elige cómo se dirigen los visitantes a ellos y luego activa la aptitud en Compositor y define las intenciones que la sitúan en el déclencheur. Una vez configurada, los clientes pueden solicitar una reunión o un chat en vivo durante una conversación sin abandonar el chat. Ver [reserva de reuniones y chat en vivo](sales-handoff/overview.md).
 
 ### ¿Cómo se generan los pares de preguntas y respuestas iniciales en mi base de conocimientos?
 
