@@ -17,9 +17,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
+source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
 workflow-type: tm+mt
-source-wordcount: '153'
+source-wordcount: '156'
 ht-degree: 0%
 ---
 # Integración con Marketo
@@ -38,4 +38,4 @@ Descubra cómo Brand Concierge cierra el bucle entre su sitio web y Marketo Enga
 
 >[!VIDEO](https://video.tv.adobe.com/v/3492253?captions=spa&learn=on)
 
-Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
+Para obtener documentación, vea [Datos de Brand Concierge en Marketo Engage](../documentation/sales-handoff/marketo-activities.md).

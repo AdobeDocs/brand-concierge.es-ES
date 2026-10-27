@@ -5,9 +5,9 @@ feature: Release Information
 product_v2:
   - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
     internal-label: Brand Concierge
-source-git-commit: 3ca4b47d82dc8992903da3f48062c5fb76c7e6be
+source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1327'
 ht-degree: 0%
 ---
 # Información de la versión actual {#current-release-notes}
@@ -15,6 +15,22 @@ ht-degree: 0%
 Adobe Brand Concierge sigue un modelo de envío continuo, que permite a Adobe ofrecer nuevas funciones, mejoras y correcciones de forma continua.
 
 Todas las funciones están disponibles generalmente a menos que se indique lo contrario.
+
+## Octubre de 2026 {#october-2026}
+
+* **Puntuación de conversación para chat en vivo**: Los representantes de ventas evalúan cada chat en vivo antes de cerrarlo, en una escala de 0 a 3 desde el menos al más calificado. La puntuación se almacena en el registro de posibles clientes y está disponible como restricción en filtros y déclencheur de Marketo Engage, por lo que puede impulsar la puntuación de posibles clientes, el redireccionamiento, la personalización y el traspaso CRM. Ver [Puntuación de la conversación](../documentation/sales-handoff/chat-inbox.md#conversation-score).
+
+* **Actividades de Brand Concierge en el perfil de Marketo Engage**: el compromiso del Concierge se escribe en el registro de persona de Marketo como tres tipos de actividades nativas: Participación con el Concierge, Programar reunión en el Concierge y Participación con el Chat en vivo en el Concierge. Los tres están disponibles como déclencheur y filtros en Smart Lists, con restricciones como puntuación de conversación, estado de reunión, tipo de enrutamiento y representante de ventas. Ver [datos de Brand Concierge en Marketo Engage](../documentation/sales-handoff/marketo-activities.md).
+
+* **Perfil completo de Marketo en el panel de visitantes**: la bandeja de entrada del chat muestra el perfil del visitante junto con la conversación, incluidos los detalles que compartieron en el formulario previo al chat, de modo que los representantes tengan un contexto completo antes de responder.
+
+* **Notificaciones de enrutamiento multicanal**: se notifica a los representantes de los chats entrantes en los canales, por lo que los chats se recogen más rápido.
+
+## Septiembre de 2026 {#september-2026}
+
+* **Chat en vivo y reserva de reuniones en Composer 2.0**: El Chat en vivo y la reserva de reuniones están disponibles como integraciones integradas en el panel Explorar integraciones del Compositor, y la nueva habilidad de transferencia a ventas decide cuándo ofrecerlas en función de la intención del visitante. Ver [Activar reserva de reunión y chat en vivo](../documentation/sales-handoff/configure-in-composer.md).
+
+* **Reglas de enrutamiento personalizadas**: genere reglas de enrutamiento en los atributos de cliente potencial y compañía de Marketo para enviar visitantes al representante correcto, usando varios grupos de condiciones combinados con AND y OR, reglas priorizadas y varios representantes asignados. El enrutamiento personalizado se aplica tanto a la reserva de reuniones como al chat en vivo. Ver [Enrutar conversaciones a los representantes](../documentation/sales-handoff/routing-rules.md).
 
 ## Agosto de 2026 {#august-2026}
 
