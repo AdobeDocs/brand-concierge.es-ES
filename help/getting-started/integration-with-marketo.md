@@ -17,7 +17,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 0%
@@ -33,9 +33,9 @@ Descubra cómo Brand Concierge cierra el bucle entre su sitio web y Marketo Enga
 ## Contenido de vídeo
 
 * Cómo fluyen las conversaciones de los visitantes desde Brand Concierge a Marketo, desde la captura de posibles clientes en el chat y la reserva de reuniones hasta la creación automática de posibles clientes
-* El tipo de actividad nativa &quot;Reunión programada en Concierge&quot; registrado en el registro de actividades del posible cliente, con contexto completo: duración de la reunión, paso de ventas, tipo de enrutamiento y estado de la reserva
+* El tipo de actividad nativa &quot;Programar reunión en Concierge&quot; registrado en el registro de actividades del posible cliente, con contexto completo: duración de la reunión, paso de ventas, tipo de enrutamiento y estado de la reserva
 * Uso de tipos de actividades de Brand Concierge en campañas inteligentes de Marketo como déclencheur, filtros o datos de campañas por lotes
 
->[!VIDEO](https://video.tv.adobe.com/v/3492253?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3492225?learn=on)
 
 Para obtener documentación, vea [Datos de Brand Concierge en Marketo Engage](../documentation/sales-handoff/marketo-activities.md).

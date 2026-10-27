@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4a54cf90e8233e86cabf9329a78cb10f35a630f6
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '337'
 ht-degree: 0%
 ---
 # Activar conversaciones de voz
@@ -66,3 +66,7 @@ La voz no limita al conserje al audio. Durante una conversación de voz, el cons
 1. En la ficha **Diseño**, seleccione **Voz**.
 
 1. En el panel _Voz_, deshabilita las opciones que deseas desactivar y, a continuación, selecciona **Guardar**.
+
+## Demostración en vídeo
+
+Para ver conversaciones de voz en acción, revisa la [demostración en vídeo](/help/getting-started/voice-conversation.md).

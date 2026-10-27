@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '771'
 ht-degree: 0%
 ---
 # Dirija las conversaciones a los representantes {#routing}
@@ -33,13 +33,13 @@ Usted elige un tipo de enrutamiento por separado para la integración de **[!UIC
 | **[!UICONTROL Agente directo]** | Un representante que usted nombre | No |
 | **[!UICONTROL Enrutamiento personalizado]** | Los representantes asignados a la regla de enrutamiento de mayor prioridad a la que el visitante pertenece | Sí |
 
-La operación por turnos está disponible de forma predeterminada y no necesita configuración. El tipo de enrutamiento se establece en la propia integración. Ver [Activar reserva de reunión y chat en vivo](configure-in-composer.md).
+La operación por turnos está disponible de forma predeterminada y no necesita configuración. El tipo de enrutamiento se establece en la propia integración. Ver [Activar chat en vivo y reserva de reuniones](configure-in-composer.md).
 
 ### Round Robin {#round-robin}
 
 Round Robin se comporta de forma diferente para las reuniones que para las charlas, porque las dos tienen objetivos diferentes.
 
-**Para la reserva de reuniones**, round robin distribuye las reuniones de manera uniforme. Primero se ofrece el primer representante elegible que ha conectado un calendario. Una vez que se reserva una reunión con ellos, se sacan de la piscina y se ofrece el siguiente representante. Con cinco representantes, las primeras cinco reuniones van a cinco personas diferentes. Después de que todos hayan recibido uno, el grupo se restablece y el ciclo comienza de nuevo.
+Para la reserva de reuniones, round robin distribuye las reuniones uniformemente. Primero se ofrece el primer representante elegible que ha conectado un calendario. Una vez que se reserva una reunión con ellos, se sacan de la piscina y se ofrece el siguiente representante. Con cinco representantes, las primeras cinco reuniones van a cinco personas diferentes. Después de que todos hayan recibido uno, el grupo se restablece y el ciclo comienza de nuevo.
 
 La piscina también se restablece cada 24 horas, de modo que las reuniones de cada día se distribuyen uniformemente.
 
@@ -47,7 +47,7 @@ La piscina también se restablece cada 24 horas, de modo que las reuniones de ca
 >
 >El restablecimiento de operación por turnos de 24 horas se ejecuta en UTC, no en la zona horaria local del representante.
 
-**Para el chat en vivo**, no hay rotación secuencial. Cada representante elegible es notificado del chat entrante al mismo tiempo, y el primero en aceptar toma la conversación.
+Para el chat en vivo, no hay rotación secuencial. Cada representante elegible es notificado del chat entrante al mismo tiempo, y el primero en aceptar toma la conversación.
 
 ### Agente directo {#direct-agent}
 
@@ -57,9 +57,9 @@ Cada reunión o chat de este conserje va a la única representante que usted sel
 
 El enrutamiento personalizado evalúa las reglas que genera en [!DNL Adobe Marketo Qualifier] con respecto a los atributos del posible cliente y de la compañía [!DNL Marketo] del visitante. Utilícelo cuando el representante adecuado dependa de algo que conozca sobre el visitante, como:
 
-* **Geografía**: visitantes de un conjunto de países van al equipo regional.
-* **Interés en un producto**: los visitantes interesados en un producto específico acuden a los especialistas de ese producto.
-* **Unidad de negocio, tamaño de empresa o sector**: cualquier combinación de cliente potencial y atributos de empresa.
+* Geografía: los visitantes de un conjunto de países acuden al equipo regional.
+* Interés del producto: los visitantes interesados en un producto específico acuden a los especialistas de ese producto.
+* Unidad de negocio, tamaño de empresa o sector: cualquier combinación de cliente potencial y atributos de empresa.
 
 >[!IMPORTANT]
 >
@@ -103,8 +103,8 @@ Cuando esto sucede, solo se aplica la regla de coincidencia de prioridad más al
 >
 >Un número menor significa una prioridad mayor. Una regla con prioridad 1 prevalece sobre una regla con prioridad 2. La persona que crea una regla establece su prioridad.
 
-Dentro de la regla ganadora, los representantes asignados a él son el grupo apto, y el comportamiento round robin y all-agent descrito anteriormente se aplica a ese grupo.
+Dentro de la regla ganadora, los representantes asignados a él son el grupo apto, y el comportamiento de round robin para reuniones y el comportamiento notify-every para charlas, ambos descritos anteriormente, se aplican a ese grupo.
 
 ## Siguiente paso {#next}
 
-Con los representantes configurados y el enrutamiento decidido, añada las capacidades a un conserje. Ver [Activar reserva de reunión y chat en vivo](configure-in-composer.md).
+Con los representantes configurados y el enrutamiento decidido, añada las capacidades a un conserje. Ver [Activar chat en vivo y reserva de reuniones](configure-in-composer.md).

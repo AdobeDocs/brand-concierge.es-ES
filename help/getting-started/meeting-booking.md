@@ -27,14 +27,14 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '125'
-ht-degree: 49%
+source-wordcount: '124'
+ht-degree: 16%
 ---
 # Reservar una reunión
 
-Obtenga información sobre la posibilidad de reservar una reunión que se encuentra en Adobe Brand Concierge. En este tutorial de vídeo, los temas tratados son el aspecto que puede tener la experiencia del cliente, la configuración de administración para conectar un calendario y un repaso a algunos paneles de control e informes.
+Obtenga información acerca de la capacidad de reserva de reuniones en Adobe Brand Concierge. En este tutorial de vídeo, los temas tratados son el aspecto que puede tener la experiencia del cliente, la configuración de administración para conectar un calendario y una visión de algunos paneles e informes.
 
 ## ¿Para quién es este vídeo?
 
@@ -48,6 +48,6 @@ Obtenga información sobre la posibilidad de reservar una reunión que se encuen
 * Ver lo rápido y fácil que sucede una transferencia a un agente activo
 * Descubra cómo se administran y configuran estas herramientas
 
->[!VIDEO](https://video.tv.adobe.com/v/3478537?captions=spa&learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3478534?learn=on&enablevpops)
 
 Para obtener más documentación, consulte [Chat en vivo y reserva de reuniones](../documentation/sales-handoff/overview.md).

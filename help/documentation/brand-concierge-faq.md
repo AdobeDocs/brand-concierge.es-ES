@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Privacy
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1981'
 ht-degree: 1%
 ---
 # Preguntas frecuentes
@@ -148,7 +148,7 @@ Todas las pruebas se realizan antes de realizar la implementación en los client
 
 ### ¿Pueden los clientes programar reuniones con nuestro equipo?
 
-Sí. Los clientes pueden programar reuniones con su equipo o iniciar una conversación en vivo con un representante, usando la habilidad **Entrega a ventas** con las integraciones de **Meeting Booking** y **Live Chat**. Los representantes conectan su calendario y establecen su disponibilidad en Adobe Marketo Qualifier, usted elige cómo se dirigen los visitantes a ellos y luego activa la aptitud en Compositor y define las intenciones que la sitúan en el déclencheur. Una vez configurada, los clientes pueden solicitar una reunión o un chat en vivo durante una conversación sin abandonar el chat. Ver [reserva de reuniones y chat en vivo](sales-handoff/overview.md).
+Sí. Los clientes pueden programar reuniones con su equipo o iniciar una conversación en vivo con un representante usando la habilidad **Entrega a ventas** con las integraciones de **Meeting Booking** y **Live Chat**. Los representantes conectan su calendario y establecen su disponibilidad en Adobe Marketo Qualifier. Usted elige cómo se dirigen los visitantes a ellos y, a continuación, activa la habilidad en Composer y define las intenciones que lo déclencheur. Una vez configurada, los clientes pueden solicitar una reunión o un chat en vivo durante una conversación sin abandonar el chat. Ver [reserva de reuniones y chat en vivo](sales-handoff/overview.md).
 
 ### ¿Cómo se generan los pares de preguntas y respuestas iniciales en mi base de conocimientos?
 

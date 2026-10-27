@@ -5,7 +5,7 @@ feature: Release Information
 product_v2:
   - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
     internal-label: Brand Concierge
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 0%
@@ -28,7 +28,7 @@ Todas las funciones están disponibles generalmente a menos que se indique lo co
 
 ## Septiembre de 2026 {#september-2026}
 
-* **Chat en vivo y reserva de reuniones en Composer 2.0**: El Chat en vivo y la reserva de reuniones están disponibles como integraciones integradas en el panel Explorar integraciones del Compositor, y la nueva habilidad de transferencia a ventas decide cuándo ofrecerlas en función de la intención del visitante. Ver [Activar reserva de reunión y chat en vivo](../documentation/sales-handoff/configure-in-composer.md).
+* **Chat en vivo y reserva de reuniones en Composer 2.0**: El Chat en vivo y la reserva de reuniones están disponibles como integraciones integradas en el panel de integraciones de exploración del Compositor, y el nuevo traspaso a la habilidad de ventas determina cuándo ofrecerlos en función de la intención del visitante. Ver [Activar chat en vivo y reserva de reuniones](../documentation/sales-handoff/configure-in-composer.md).
 
 * **Reglas de enrutamiento personalizadas**: genere reglas de enrutamiento en los atributos de cliente potencial y compañía de Marketo para enviar visitantes al representante correcto, usando varios grupos de condiciones combinados con AND y OR, reglas priorizadas y varios representantes asignados. El enrutamiento personalizado se aplica tanto a la reserva de reuniones como al chat en vivo. Ver [Enrutar conversaciones a los representantes](../documentation/sales-handoff/routing-rules.md).
 

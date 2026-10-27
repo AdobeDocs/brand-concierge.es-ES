@@ -12,16 +12,16 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '638'
 ht-degree: 1%
 ---
 # Bandeja de entrada de chat {#chat-inbox}
 
 Cuando un visitante pide hablar con alguien, el chat llega a la **[!UICONTROL bandeja de entrada del chat]** en [!DNL Adobe Marketo Qualifier]. Esta página es la vista del representante de un chat en vivo: lo que ves cuando llega, qué contexto obtienes y qué tienes que hacer antes de poder cerrarlo.
 
-Para abrirlo, en el panel izquierdo bajo **[!UICONTROL Actividades]**, seleccione **[!UICONTROL Bandeja de entrada de chat]**.
+Para abrir la bandeja de entrada del chat, en el panel izquierdo bajo **[!UICONTROL Actividades]**, seleccione **[!UICONTROL Bandeja de entrada del chat]**.
 
 ## Recibir un chat {#receive}
 

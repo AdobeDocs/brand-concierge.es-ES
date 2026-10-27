@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ec567c798c52edaba7e2cfb41a837d8058bcceb7
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '785'
 ht-degree: 4%
 ---
 # Datos de Brand Concierge en Marketo Engage {#marketo-activities}
@@ -61,13 +61,13 @@ Se registra cuando un visitante se involucra con el conserje.
 
 >[!NOTE]
 >
->Algunos atributos de este tipo de actividad, incluidos los temas analizados, el resumen y el idioma, aún no se han rellenado. Están planificados para una versión futura.
+>Algunos atributos de este tipo de actividad, incluidos los temas tratados, el resumen y el idioma, están planificados para una versión futura.
 
 ### Programar reunión en Concierge {#schedule-meeting}
 
-Se ha registrado **dos veces** para una sola reserva, que es lo que le permite separar la intención del resultado.
+Se ha registrado dos veces para una sola reserva, lo que le permite separar la intención del resultado.
 
-**Primero, al iniciarse.** El visitante seleccionó la opción de programar una reunión y apareció el formulario de reserva. El estado de la reunión es `Started`.
+En primer lugar, en el inicio: el visitante seleccionó la opción de programar una reunión y apareció el formulario de reserva. El estado de la reunión es `Started`.
 
 | Atributo | Descripción |
 | --- | --- |
@@ -76,7 +76,7 @@ Se ha registrado **dos veces** para una sola reserva, que es lo que le permite s
 | ID de conserje | El conserje con el que el visitante se comprometió |
 | ID de persona | El registro de persona [!DNL Marketo] |
 
-**Entonces, al reservar.** El visitante confirmó una ranura. El estado de la reunión es `Scheduled`.
+A continuación, al reservar: el visitante confirmó un espacio. El estado de la reunión es `Scheduled`.
 
 | Atributo | Descripción |
 | --- | --- |
@@ -85,14 +85,14 @@ Se ha registrado **dos veces** para una sola reserva, que es lo que le permite s
 | Correo electrónico del representante de ventas | La dirección de correo electrónico del representante |
 | Programado para | La fecha y hora de la reunión |
 | Duración de reunión | Duración de la reunión reservada |
-| Tipo de enrutamiento | El enrutamiento que resolvió el calendario de este representante |
+| Tipo de enrutamiento | El tipo de enrutamiento que seleccionó este representante |
 | URL de página | La página donde el visitante hizo la reserva |
 | ID de conserje | El conserje con el que el visitante se comprometió |
 | ID de persona | El registro de persona [!DNL Marketo] |
 
 >[!TIP]
 >
->Generar una lista inteligente en `Meeting Status` es `Started`, pero no `Scheduled` para encontrar a todos los que empezaron a reservar una reunión y la abandonaron. Es una audiencia ya preparada para la reorientación.
+>Genere una lista inteligente de personas cuyo `Meeting Status` es `Started` pero no `Scheduled` para encontrar a todos los que empezaron a reservar una reunión y la abandonaron. Es una audiencia ya preparada para la reorientación.
 
 ### Interactúe con el chat en vivo en Concierge {#engage-with-live-chat}
 
@@ -101,7 +101,7 @@ Registrado después de que finalice un chat en vivo.
 | Atributo | Descripción |
 | --- | --- |
 | Estado de conversación | `Ended` si el chat se cerró deliberadamente, `Dropped` si el visitante abandonó el sitio y se agotó el tiempo de espera del chat |
-| Agentes notificados | Las direcciones de correo electrónico de todos los agentes a los que se notificó este chat |
+| Agentes notificados | Las direcciones de correo electrónico de todos los representantes a los que se notificó este chat |
 | Puntuación de conversación | La calificación de 0 a 3 que el representante dio a la conversación. Ver [Puntuación de la conversación](chat-inbox.md#conversation-score) |
 | URL de página | La página donde se inició el chat en vivo |
 | ID de conserje | El conserje con el que el visitante se comprometió |
@@ -121,8 +121,8 @@ En **[!UICONTROL Smart List]** de una campaña inteligente, busque `concierge` p
 | Categoría | Elementos disponibles |
 | --- | --- |
 | **[!UICONTROL Activadores]** | Se involucra con Concierge, Se involucra con Chat en vivo en Concierge, Programa la reunión en Concierge |
-| **[!UICONTROL Filtros]** > Historial de actividades | Comprometido con Concierge, Comprometido con Chat en vivo en Concierge, Reunión programada en Concierge |
-| **[!UICONTROL Filtros]** > Filtros De Inactividad | No participar con Concierge, No participar con chat en vivo en Concierge, No programado reunión en Concierge |
+| **[!UICONTROL Filtros]** > **[!UICONTROL Historial de actividades]** | Comprometido con Concierge, Comprometido con Chat en vivo en Concierge, Reunión programada en Concierge |
+| **[!UICONTROL Filtros]** > **[!UICONTROL Filtros De Inactividad]** | No participar con Concierge, No participar con chat en vivo en Concierge, No programado reunión en Concierge |
 
 Arrastre un déclencheur al lienzo y, a continuación, seleccione **[!UICONTROL Agregar restricción]** para reducirlo.
 
