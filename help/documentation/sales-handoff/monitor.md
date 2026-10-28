@@ -14,14 +14,14 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '225'
 ht-degree: 0%
 ---
 # Monitorización de reuniones y charlas en directo {#monitor}
 
-[!DNL Adobe Marketo Qualifier] guarda el registro operativo de cada transferencia: las reuniones que se reservaron, las charlas que se realizaron y el desempeño del equipo frente a ellas.
+[!DNL Adobe Marketo Qualifier] guarda el registro operativo de cada transferencia: las reuniones que se reservaron, las charlas que se realizaron y el rendimiento de las reservas de reuniones.
 
 ## Revisar reuniones reservadas {#bookings}
 
@@ -39,9 +39,9 @@ En **[!UICONTROL Actividades]**, seleccione **[!UICONTROL Bandeja de entrada de 
 
 ## Analizar el rendimiento de reuniones {#performance}
 
-En **[!UICONTROL Analytics]**, seleccione **[!UICONTROL Rendimiento de la reunión]** para revisar varias categorías de análisis, incluyendo cuántos visitantes solicitaron reuniones y cuántas se perdieron. También se puede ver la tendencia de las reuniones a lo largo del tiempo y qué representantes las tomaron.
+En **[!UICONTROL Analytics]**, seleccione **[!UICONTROL Rendimiento de la reunión]** para ver cuántas reuniones solicitaron los visitantes, cuántas se reservaron y cuántas se perdieron. También puede ver las tendencias diarias, semanales y mensuales, el porcentaje de reuniones solicitadas que se reservaron y los representantes que tomaron la mayor cantidad de reuniones.
 
-![Panel de rendimiento de la reunión](../assets/meetings-performance-1.png){width="800" zoomable="yes"}
+![Panel de rendimiento de la reunión que muestra el número total de reuniones solicitadas, reservadas y perdidas, seguido por gráficos diarios de reuniones perdidas y el porcentaje de solicitudes reservadas](../assets/meetings-performance-1.png){width="800" zoomable="yes"}
 
 ## Analizar la participación del conserje en Marketo Engage {#marketo}
 

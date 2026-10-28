@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '786'
 ht-degree: 1%
 ---
 # Configuración de representantes en Adobe Marketo Qualifier {#representative-setup}
@@ -49,7 +49,7 @@ La conexión del calendario es lo que hace que la disponibilidad real sea visibl
 
    ![Selector de cuenta de Microsoft mostrado durante la conexión de calendario](../assets/meetings-connect-3.png){width="600" zoomable="yes"}
 
-1. Revise el correo electrónico de confirmación que se envía a un visitante cuando reserva una reunión con usted.
+1. Revise el correo electrónico de confirmación que recibe un visitante cuando reserva una reunión con usted.
 
    Se establecen una línea de asunto y un cuerpo predeterminados para usted. Edite cualquiera de ellos y elija si desea incluir un vínculo de reunión [!DNL Microsoft Teams] en la invitación.
 
@@ -112,7 +112,7 @@ La disponibilidad del chat en vivo es independiente de la disponibilidad del cal
 
 ## Revisar quién está configurado {#manage-members}
 
-**Solo administradores.** En **[!UICONTROL Administración]**, seleccione **[!UICONTROL Administrar miembros]** para ver el estado de cada representante en un solo lugar: que haya conectado un calendario, que haya establecido la disponibilidad del chat en vivo y que haya desconectado un calendario.
+Esta sección es solo para administradores. En **[!UICONTROL Administración]**, seleccione **[!UICONTROL Administrar miembros]** para ver el estado de cada representante en un solo lugar: que haya conectado un calendario, que haya establecido la disponibilidad del chat en vivo y que haya desconectado un calendario.
 
 Utilícelo antes de activar las integraciones en Composer. Un representante que aparece aquí sin un calendario conectado no es elegible para la reserva de reunión, y uno sin disponibilidad de chat en vivo no es elegible para chat en vivo.
 

@@ -14,12 +14,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '814'
+source-wordcount: '828'
 ht-degree: 0%
 ---
-# Activar Live Chat y reserva de reunión {#configure-in-composer}
+# Activar chat en vivo y reserva de reuniones {#configure-in-composer}
 
 Hay dos cosas que deben estar en su lugar en Composer. Las integraciones de **[!UICONTROL Meeting Booking]** y **[!UICONTROL Live Chat]** le dan al conserje la *capacidad* de comprobar la disponibilidad, iniciar una conversación y reservar un espacio. La habilidad **[!UICONTROL Entrega a ventas]** le indica *cuándo* usar esa habilidad.
 
@@ -27,7 +27,7 @@ Hay dos cosas que deben estar en su lugar en Composer. Las integraciones de **[!
 >
 >Complete [Primero configure representantes en Adobe Marketo Qualifier](representative-setup.md). Las integraciones buscan calendarios conectados y disponibilidad de chat en vivo, y no se activarán sin ellos.
 
-## Conectar la integración de Meeting Booking {#connect-meeting-booking}
+## Conectar la integración de reserva de reuniones {#connect-meeting-booking}
 
 1. En Compositor, abre tu conserje y selecciona **[!UICONTROL Integraciones]** > **[!UICONTROL Integraciones de exploración]**.
 
@@ -54,7 +54,7 @@ Hay dos cosas que deben estar en su lugar en Composer. Las integraciones de **[!
 
 1. Seleccione **[!UICONTROL Conectar]**.
 
-## Conexión de la integración de Live Chat {#connect-live-chat}
+## Conexión de la integración de chat en vivo {#connect-live-chat}
 
 1. En **[!UICONTROL Integraciones de exploración]**, seleccione **[!UICONTROL Chat en vivo]** y luego seleccione **[!UICONTROL Configurar]**.
 
@@ -100,7 +100,7 @@ Las integraciones ya están conectadas, pero el conserje todavía necesita saber
    | Comparación competitiva | Comparación de las soluciones con alternativas, diferenciación o migración de la competencia desde una plataforma de la competencia |
    | Acceso de prueba y POC | Configuraciones de prueba, acceso al patio de recreo, pruebas de concepto o pilotos |
    | Cambios en contratos y licencias | Renovaciones de contratos, extensiones de plazos o actualizaciones de planes |
-   | RFP o RFI de compras | Envíos, respuestas, cuestionarios a proveedores, formularios de compras o documentación de cumplimiento |
+   | RFP o RFI de compras | Envíos y respuestas de RFP o RFI, cuestionarios a proveedores, formularios de adquisición o documentación de cumplimiento |
    | Demostraciones | Demostraciones o tutoriales de productos |
 
    Seleccione **[!UICONTROL Agregar condición]** para agregar una intención propia o eliminar cualquier condición que no se aplique a su negocio.
@@ -123,6 +123,6 @@ Abra la vista previa y pídale al conserje algo que coincida con una de las cond
 
 Cuando el comportamiento sea correcto, publique su conserje para que el traspaso esté activo en su sitio.
 
-## Siguiente paso {#next}
+## Próximos pasos {#next-steps}
 
-Sus representantes ahora pueden recibir charlas. Ver [Bandeja de entrada de chat](chat-inbox.md).
+Sus representantes ahora pueden recibir charlas y reservaciones de reuniones. Para obtener información sobre cómo los representantes gestionan un chat, consulte [Bandeja de entrada de chat](chat-inbox.md).

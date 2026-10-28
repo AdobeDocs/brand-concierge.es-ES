@@ -15,17 +15,17 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 4751ce408fb2aa6d1affae4dd7a5d81ca43ffc8a
+source-git-commit: 91cbec8d6f4e4800e3bdc8c8f60bfe9ed168a963
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '768'
 ht-degree: 0%
 ---
 # Descripción general de chat en vivo y reservas de reuniones {#overview}
 
 Un conserje responde a la mayoría de las preguntas por su cuenta. Algunas conversaciones necesitan una persona: una negociación de precios, un cuestionario de compras, una solicitud de demostración. El chat en vivo y la reserva de reuniones son las dos maneras en que Brand Concierge entrega esa conversación a un ser humano sin perder el contexto que el visitante ya proporcionó.
 
-* **Chat en vivo** conecta al visitante con un representante disponible inmediatamente, en la misma ventana de chat.
-* **Reserva de reunión** ofrece al visitante espacios abiertos reales en el calendario de un representante y reserva la reunión.
+* El chat en vivo conecta al visitante con un representante disponible inmediatamente, en la misma ventana de chat.
+* La reserva de reuniones ofrece al visitante espacios abiertos reales del calendario de un representante y reserva la reunión.
 
 Ambos son ofrecidos por la misma aptitud, **[!UICONTROL Entrega a ventas]**, y ambos se dirigen a través de [!DNL Adobe Marketo Qualifier] (anteriormente [!DNL Sales Qualifier]), donde sus representantes conectan sus calendarios, establecen su disponibilidad y toman charlas.
 
@@ -40,7 +40,7 @@ Cuatro piezas tienen que alinearse antes de que un visitante pueda llegar a una 
 | Integraciones | La **[!UICONTROL reserva de reuniones]** y el **[!UICONTROL chat en vivo]** le permiten al conserje comprobar la disponibilidad, iniciar una conversación y reservar un espacio | Compositor > **[!UICONTROL Integraciones de exploración]** |
 | Habilidad | **[!UICONTROL Envío a ventas]** decide *cuándo* ofrecer un envío, según la intención del visitante | Compositor > **[!UICONTROL aptitudes de exploración]** |
 
-En tiempo de ejecución: el visitante dice algo que coincide con una de las **[!UICONTROL condiciones de uso de la aptitud, la aptitud se activa, llama a las integraciones que estén adjuntas, el enrutamiento resuelve a un representante y se ofrece al visitante una charla, una reunión o ambas cosas.]**
+En tiempo de ejecución, el visitante indica algo que coincide con una de las **[!UICONTROL condiciones de uso de la aptitud cuando]**. La aptitud se activa y llama a las integraciones que estén adjuntas. A continuación, el enrutamiento resuelve un representante y se ofrece al visitante una conversación, una reunión o ambas cosas.
 
 >[!NOTE]
 >
@@ -70,7 +70,7 @@ Si el visitante decide reservar una reunión, el conserje muestra un calendario 
 
 ![Reserva una tarjeta de reunión en la conversación que muestre un calendario mensual y una lista de los espacios de tiempo disponibles](../assets/sales-handoff-visitor-3.png){width="800" zoomable="yes"}
 
-Una vez que el visitante confirma un espacio, se envía el correo electrónico de confirmación del representante, que incluye, opcionalmente, un vínculo [!DNL Microsoft Teams]. El contexto de conversación se dirige al representante con la invitación.
+Una vez que el visitante confirma un espacio, recibe el correo electrónico de confirmación del representante, que opcionalmente incluye un vínculo [!DNL Microsoft Teams]. El contexto de conversación se dirige al representante con la invitación.
 
 ## Lo que necesita antes de empezar {#prerequisites}
 
@@ -89,7 +89,7 @@ Trabaje en estos campos en orden.
 
 1. [Configurar representantes en Adobe Marketo Qualifier](representative-setup.md): conecte un calendario, defina el correo electrónico de confirmación y establezca la disponibilidad del calendario y del chat en vivo.
 1. [Enrutar conversaciones a los representantes](routing-rules.md): elija operación por turnos, un agente directo o reglas personalizadas creadas en atributos de [!DNL Marketo].
-1. [Activar Live Chat y reserva de reunión](configure-in-composer.md): conecte las dos integraciones y active la habilidad **[!UICONTROL Entrega a ventas]**.
+1. [Activar chat en vivo y reserva de reuniones](configure-in-composer.md) — conecta las dos integraciones y activa la habilidad **[!UICONTROL Entrega a ventas]**.
 1. [Bandeja de entrada de chat](chat-inbox.md): lo que los representantes hacen una vez que llega una conversación, incluida la puntuación de la conversación.
 1. [Datos de Brand Concierge en Marketo Engage](marketo-activities.md): los campos de posibles clientes y los tipos de actividades escritos en [!DNL Marketo], y cómo usarlos en campañas inteligentes.
 1. [Supervise reuniones y charlas en vivo](monitor.md): la lista de reservas y el panel de rendimiento.
