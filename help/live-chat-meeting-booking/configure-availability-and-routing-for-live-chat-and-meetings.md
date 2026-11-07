@@ -29,6 +29,6 @@ Descubra cómo Adobe Brand Concierge utiliza la disponibilidad de los representa
 * Establezca horas de chat en vivo por separado y revise la preparación de los representantes en Administrar miembros
 * Cree reglas de enrutamiento con atributos, condiciones, asignaciones representativas y prioridades de los visitantes
 
->[!VIDEO](https://video.tv.adobe.com/v/3506785?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3506788?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Configurar representantes](../documentation/sales-handoff/representative-setup.md) y [Enrutar conversaciones a los representantes](../documentation/sales-handoff/routing-rules.md).
