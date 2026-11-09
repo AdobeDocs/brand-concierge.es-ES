@@ -32,4 +32,4 @@ Descubra cómo Adobe Brand Concierge envía detalles de persona y actividades de
 * Agregar déclencheur y filtros de actividad de Concierge a `Smart List` de una campaña inteligente
 * Reduzca las audiencias con restricciones de actividad disponibles, como estado, fechas, tipo de enrutamiento, dirección URL de la página, representante de ventas y puntuación de la conversación
 
->[!VIDEO](https://video.tv.adobe.com/v/3508041?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3508044?captions=spa&learn=on)
