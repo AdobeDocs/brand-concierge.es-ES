@@ -5,12 +5,12 @@ topic: Administration
 role: User
 level: Beginner
 doc-type: Tutorial
-duration: 201
+duration: 206
 last-substantial-update: 2026-11-03
 jira: KT-23034
-source-git-commit: 636dfd59c05251b6e07523877d9f7ab2df302f04
+source-git-commit: 1d527d5f400254b317871c0cc2d0315846e2da63
 workflow-type: tm+mt
-source-wordcount: '144'
+source-wordcount: '168'
 ht-degree: 0%
 ---
 # Establecer disponibilidad y enrutamiento para charlas y reuniones en directo
@@ -29,6 +29,12 @@ Descubra cómo Adobe Brand Concierge utiliza la disponibilidad de los representa
 * Establezca horas de chat en vivo por separado y revise la preparación de los representantes en Administrar miembros
 * Cree reglas de enrutamiento con atributos, condiciones, asignaciones representativas y prioridades de los visitantes
 
->[!VIDEO](https://video.tv.adobe.com/v/3506788?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3506785?learn=on)
 
 Para obtener documentación, consulte [Configurar representantes](../documentation/sales-handoff/representative-setup.md) y [Enrutar conversaciones a los representantes](../documentation/sales-handoff/routing-rules.md).
+
+## Tutoriales relacionados
+
+* [Chat en vivo y reserva de reuniones: la experiencia de extremo a extremo](live-chat-and-meeting-booking-end-to-end-experience.md)
+* [Configurar el chat en vivo y la reserva de reuniones](configure-live-chat-and-meeting-booking.md)
+* [Uso de actividades de Brand Concierge en Marketo](use-brand-concierge-activities-in-marketo.md)
