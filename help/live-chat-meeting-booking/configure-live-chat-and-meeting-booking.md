@@ -28,7 +28,7 @@ Aprenda a configurar el chat en vivo y la reserva de reuniones en Adobe Brand Co
 * Añada las integraciones a la aptitud Entrega a ventas y defina las intenciones que la déclencheur
 * Revise las instrucciones que se generan automáticamente, refine las intenciones y los déclencheur de cada integración y pruebe la aptitud en la vista previa
 
->[!VIDEO](https://video.tv.adobe.com/v/3508052?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3508055?captions=spa&learn=on)
 
 Para obtener documentación, consulte [Activar el chat en vivo y la reserva de reuniones](../documentation/sales-handoff/configure-in-composer.md).
 
