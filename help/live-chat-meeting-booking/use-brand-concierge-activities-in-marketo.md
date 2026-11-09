@@ -1,16 +1,16 @@
 ---
 title: Uso de actividades de Brand Concierge en Marketo
-description: Descubra cómo Brand Concierge envía datos de participación a Marketo y utiliza filtros y déclencheur de actividad en campañas inteligentes.
+description: Descubra cómo Adobe Brand Concierge envía datos de participación a Marketo Engage y utiliza filtros de actividad, déclencheur y puntuaciones de conversación en campañas inteligentes.
 topic: Integrations
 role: User
 level: Beginner
 doc-type: Tutorial
-duration: 276
+duration: 282
 last-substantial-update: 2026-11-06
 jira: KT-23062
-source-git-commit: 5d5b641a252c21e1c490cc77f169ac651d9654d1
+source-git-commit: 07679bbe94abeeebcd160cff4cb41f0f561ac63e
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '179'
 ht-degree: 0%
 ---
 # Uso de actividades de Brand Concierge en Marketo
@@ -30,6 +30,12 @@ Descubra cómo Adobe Brand Concierge envía detalles de persona y actividades de
 * Distinguir las reservas de reuniones iniciadas de las reuniones programadas
 * Revisar el estado del chat en vivo y las puntuaciones de conversación asignadas por el representante
 * Agregar déclencheur y filtros de actividad de Concierge a `Smart List` de una campaña inteligente
-* Reduzca las audiencias con restricciones de actividad disponibles, como estado, fechas, tipo de enrutamiento, dirección URL de la página, representante de ventas y puntuación de la conversación
+* Limite las audiencias con restricciones de actividad, como estado, fechas, tipo de enrutamiento, dirección URL de la página, representante de ventas y puntuación de conversación
 
->[!VIDEO](https://video.tv.adobe.com/v/3508044?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3508041?learn=on)
+
+## Tutoriales relacionados
+
+* [Chat en vivo y reserva de reuniones: la experiencia de extremo a extremo](live-chat-and-meeting-booking-end-to-end-experience.md)
+* [Establecer disponibilidad y enrutamiento para charlas y reuniones en directo](configure-availability-and-routing-for-live-chat-and-meetings.md)
+* [Configurar el chat en vivo y la reserva de reuniones](configure-live-chat-and-meeting-booking.md)
