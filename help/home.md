@@ -24,11 +24,9 @@ topic_v2:
     internal-label: Customer profiles
 source-git-commit: be0b12f950b911baf48596f7b145fcaa2c6880cf
 workflow-type: tm+mt
-source-wordcount: 479
+source-wordcount: '479'
 ht-degree: 0%
-
 ---
-
 # Adobe Brand Concierge
 
 Brand Concierge es un complemento digital con tecnología de IA que transforma la forma en que las marcas interactúan con los visitantes de su sitio web. A diferencia de los bots de chat genéricos, Brand Concierge ofrece experiencias conversacionales personalizadas y adaptadas a las intenciones de cada visitante. Ayuda a los visitantes a descubrir productos, comparar opciones, obtener respuestas instantáneas y recibir recomendaciones guiadas en tiempo real. La plataforma sirve tanto B2C como B2B. Actúa como una extensión inteligente de su marca en cualquier canal digital, a la vez que preserva la voz de su marca, la integridad del contenido y el cumplimiento normativo.
