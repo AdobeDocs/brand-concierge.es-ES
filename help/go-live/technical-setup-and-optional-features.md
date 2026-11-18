@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b1cb207b8624703baa0247f2b08c3f522ab4d0db
+source-git-commit: b1085e3d143bbfbf221c0a8269746be7a153a4d0
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '223'
 ht-degree: 0%
 ---
 # Configuración técnica y funciones opcionales
@@ -52,4 +52,4 @@ Prepare su sitio web para Adobe Brand Concierge y elija las funciones opcionales
 * [Su lista de comprobación y plan de despliegue previos a la activación](your-pre-go-live-checklist-and-rollout-plan.md)
 * [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
 
-Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
+Para obtener documentación, consulte la [lista de comprobación de go-live](../documentation/go-live-checklist/go-live-checklist.md) y la [ayuda de Brand Concierge](../documentation/overview.md).
