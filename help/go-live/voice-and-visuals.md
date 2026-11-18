@@ -7,6 +7,7 @@ level: Beginner
 doc-type: Tutorial
 duration: 131
 last-substantial-update: 2026-08-07T00:00:00.000Z
+nudge-edit: 2026-11-18
 jira: KT-22187
 product_v2:
   - id: b6ee73fe-bdc6-47d9-99a2-80194514dd40
@@ -17,7 +18,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b1085e3d143bbfbf221c0a8269746be7a153a4d0
+source-git-commit: aa0cca6dac2bac5ddf75f72341b76aa0c02ad5f0
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -39,7 +40,7 @@ Su conserje no debe sonar como un bot de chat genérico, debe sonar como su marc
 * Opciones visuales de widget: ubicación, modo de visualización, color y fuente
 * Nombrar al asistente, escribir su saludo y elegir las indicaciones de inicio
 
->[!VIDEO](https://video.tv.adobe.com/v/3496945/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3496942/?learn=on)
 
 ## Tutoriales relacionados
 
@@ -48,6 +49,6 @@ Su conserje no debe sonar como un bot de chat genérico, debe sonar como su marc
 * [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
 * [Configuración técnica y funciones opcionales](technical-setup-and-optional-features.md)
 * [Su lista de comprobación y plan de despliegue previos a la activación](your-pre-go-live-checklist-and-rollout-plan.md)
-* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
 
 Para obtener documentación, consulte la [lista de comprobación de go-live](../documentation/go-live-checklist/go-live-checklist.md) y la [ayuda de Brand Concierge](../documentation/overview.md).
