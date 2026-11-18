@@ -8,9 +8,9 @@ doc-type: Tutorial
 duration: 269
 last-substantial-update: 2026-10-05
 jira: KT-22190
-source-git-commit: b1cb207b8624703baa0247f2b08c3f522ab4d0db
+source-git-commit: b1085e3d143bbfbf221c0a8269746be7a153a4d0
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '303'
 ht-degree: 0%
 ---
 
@@ -35,7 +35,7 @@ Antes de lanzar Adobe Brand Concierge, valide el contenido, la configuración de
 * Obtenga la aprobación de las partes interesadas y confirme la preparación técnica con los recursos de Adobe cuando estos participen.
 * Planifique un despliegue gradual, avanzando solo cuando los resultados admitan la siguiente etapa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504109/?captions=spa&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504106/?learn=on)
 
 Comience con sus compañeros internos y pruebe los flujos de extremo a extremo completos. A continuación, considere un pequeño despliegue inicial, como el 5 % de las páginas de destino, antes de ampliarlo al 25 %, 50 % y, finalmente, 100 %. Estas son etapas de ejemplo, no una programación fija. Continúe monitorizando a través de su panel de análisis al menos una vez por semana después del despliegue completo.
 
@@ -46,6 +46,6 @@ Comience con sus compañeros internos y pruebe los flujos de extremo a extremo c
 * [Preparación del contenido y del recorrido del visitante](content-and-journey.md)
 * [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
 * [Configuración técnica y funciones opcionales](technical-setup-and-optional-features.md)
-* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
 
-Para obtener documentación, consulte [Ayuda de Brand Concierge](../documentation/overview.md).
+Para obtener documentación, consulte la [lista de comprobación de go-live](../documentation/go-live-checklist/go-live-checklist.md) y la [ayuda de Brand Concierge](../documentation/overview.md).
