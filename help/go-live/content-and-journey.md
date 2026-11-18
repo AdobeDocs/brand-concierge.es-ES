@@ -48,7 +48,7 @@ Adobe Brand Concierge solo puede responder preguntas así como al contenido que 
 * [Medición de la calidad y fijación de barreras](measuring-quality-and-setting-guardrails.md)
 * [Configuración técnica y funciones opcionales](technical-setup-and-optional-features.md)
 * [Su lista de comprobación y plan de despliegue previos a la activación](your-pre-go-live-checklist-and-rollout-plan.md)
-* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/en/playlists/brand-concierge-go-live-checklist)
+* [Lista de reproducción de la lista de comprobación de Brand Concierge go-live](https://experienceleague.adobe.com/es/playlists/brand-concierge-go-live-checklist)
 
 ## Documentación
 
