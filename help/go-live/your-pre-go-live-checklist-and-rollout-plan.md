@@ -35,7 +35,7 @@ Antes de lanzar Adobe Brand Concierge, valide el contenido, la configuración de
 * Obtenga la aprobación de las partes interesadas y confirme la preparación técnica con los recursos de Adobe cuando estos participen.
 * Planifique un despliegue gradual, avanzando solo cuando los resultados admitan la siguiente etapa.
 
->[!VIDEO](https://video.tv.adobe.com/v/3504106/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3504109/?captions=spa&learn=on)
 
 Comience con sus compañeros internos y pruebe los flujos de extremo a extremo completos. A continuación, considere un pequeño despliegue inicial, como el 5 % de las páginas de destino, antes de ampliarlo al 25 %, 50 % y, finalmente, 100 %. Estas son etapas de ejemplo, no una programación fija. Continúe monitorizando a través de su panel de análisis al menos una vez por semana después del despliegue completo.
 

@@ -39,7 +39,7 @@ Prepárese para publicar en Adobe Brand Concierge, un asistente con tecnología 
 * Lo que proporciona frente a lo que configura su equipo de Adobe
 * La cronología típica de seis a nueve semanas y qué la afecta
 
->[!VIDEO](https://video.tv.adobe.com/v/3495869/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3495872/?captions=spa&learn=on)
 
 ## Tutoriales relacionados
 
